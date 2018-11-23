@@ -1,0 +1,15 @@
+node_modules/
+npm-debug.log*
+
+# Editor datas
+
+#IntelliJ
+.idea/
+
+#VS Code
+.vscode
+
+#Sublime Text
+*.sublime-workspace
+
+.DS_Store
