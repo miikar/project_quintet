@@ -1,0 +1,1733 @@
+{
+ "items": [
+  {
+   "type": "startup",
+   "id": "4646512986423296",
+   "name": "Taival Advisory Oy",
+   "shortDescription": "Business & tech strategy co-creation services",
+   "description": "Taival is delivering the next generation of business, strategy and technology advisory services. We believe a strong core team combined with a wide and deep ecosystem of partners can deliver leading-edge business and technology services to both corporations and start-up companies.",
+   "founded": "2017-03-01T00:00:00.000Z",
+   "website": "https://taival.com/",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5087493250613248",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/DA3ZiQXlhU96Kjp3sEWu7Esm3xx6zTVMRUggVQ-iMr3wsjhTbbpnpKlHvXg-Voza83yLjnDyxbjUkjlERJNfUGmqU-Sze17jqiQs",
+    "fileName": "taival_advisory.png"
+   },
+   "published": true,
+   "industries": [
+    "on-demand_services"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4750661379948544",
+   "name": "ProLocalis Oy",
+   "shortDescription": "Connecting consumers to the best local products",
+   "description": "ProLocalis connects consumers to local producers of food, beverages, and tourism experiences",
+   "founded": "2017-10-01T00:00:00.000Z",
+   "website": "http://www.prolocalis.com",
+   "city": "Helsinki",
+   "country": "Finland",
+   "published": true,
+   "industries": [
+    "hospitality_and_travel",
+    "nutrition_food_beverages_supplements",
+    "health",
+    "agribusiness_and_farming"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4765556997619712",
+   "name": "KYKLOS",
+   "shortDescription": "Enabling gamers to find the perfect teammates",
+   "description": "Available in France and in the Nordics, KYKLOS is enabling gamers to find the perfect teammates to enter the amateur esport scene. \nWe design a technical and a psychological profile for each user and then automatically push the most relevant profiles to create the best multiplayer experience on the market. Once the team is created, we reward the played time and the performance with a virtual currency which will be spent on our marketplace into discounts on different items. ",
+   "founded": "2018-11-01T00:00:00.000Z",
+   "website": "http://gokyklos.com/",
+   "city": "Paris",
+   "country": "France",
+   "logo": {
+    "id": "5641676068487168",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/AI87T0wGqKwMX9UfvKUCC8-meobhVr6BPR0s4qTG3XQx0YhXijQw5Sk0BRkPEbaXABRCeBtHaH2qrDcJ8FdseXih0heYHxhOyyw",
+    "fileName": "logo-tagline-HD.png"
+   },
+   "published": true,
+   "industries": [
+    "sports",
+    "gaming"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4787250474778624",
+   "name": "Holda Technologies Oy",
+   "shortDescription": "Analytics",
+   "description": "Riskmanagement tool for investors",
+   "founded": "2017-04-01T00:00:00.000Z",
+   "website": "https://holda.io",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5203516087861248",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/wZe2EbdX-p6iGSv59uYnWhCZ_bBL-ttLbCosX-0z6YpaGjVO4DThF3LY8kSMg77q55vp_8JbEdjQ12O8E9INGsrKGaclYJ0Vsf77",
+    "fileName": "holda.jpg"
+   },
+   "published": true,
+   "industries": [
+    "financial_and_insurance",
+    "construction_and_real_estate"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4813398772547584",
+   "name": "Molnix Oy",
+   "shortDescription": "Molnix Rapid Personnel Manager for humanitarian HR",
+   "description": "Is your personnel roster still in a spreadsheet? Molnix Rapid Personnel Manager brings proper HR tools to roster management for humanitarian organizations. With it, you can alert the right people in under 60 seconds. By automating and offloading many parts of Human Resource Management, it saves you time and money. We have proven the benefits in operation with the Finnish Red Cross. It is cloud based, available immediately, and works on desktop and mobile. 100% owned by us, but open for angels.",
+   "founded": "2014-10-01T00:00:00.000Z",
+   "website": "https://molnix.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5087715448061952",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/o84HZiUOIpDLryRyIqDiOghi9DAPRES6p5ojHTw_SQDP7S01UZhZdevGDFU8Wpjyb_ml1Rq2gv9KfPMGj3HigGcFrpXzJeGoKY5DFA",
+    "fileName": "molnix.png"
+   },
+   "published": true,
+   "industries": [
+    "social_entrepreneurship",
+    "hr",
+    "education",
+    "89590a2b-8d44-4d83-aaf9-3fad0b5ff06f",
+    "impact"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4828836596285440",
+   "name": "Seloy Live Oy",
+   "shortDescription": "AV-industry, digital signage, construction industry",
+   "description": "Seloy Live is providing customized interactive glass surfaces that enable immersive augmented customer experiences.\n\nSENSE - Augmented Interactive Window gives exceptional experiences; Interaction is the key to brand engagement and customer engagement is everything. With Seloy Live SENSE you can make your brand really stand out. SENSE is a state-of-the-art combination of a transparent insulating glass unit and an interactive touch surface, available in any size up to 3 x 6 meters.",
+   "founded": "2016-04-01T00:00:00.000Z",
+   "website": "http://seloylive.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5132209967071232",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/_c6FN05PO6J57F8Fwd8rje2aeUFiA3k8fTNbVS_mtXXnZiniWvf1G2f1mUozugNI8ucYJSwoHDv0w6X84SYYeCsXhKrrIxz0tSo5",
+    "fileName": "SeloyLIVE_customised_glass_surfaces.png"
+   },
+   "published": true,
+   "industries": [
+    "construction_and_real_estate"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4843352612667392",
+   "name": "Surgify Medical Oy",
+   "shortDescription": "Medical devices",
+   "description": "In many fields of surgery and dentistry, bone has to be cut or removed without damaging the proximal soft structures. Surgify develops new solutions to protect these structures and prevent associated complications. Bleeding, infections and nerve injuries are some of the complications that can severely affect a patients quality of life. Surgify technology improves the safety, speed and precision of bone surgery to minimize these risks.",
+   "founded": "2017-05-01T00:00:00.000Z",
+   "website": "http://surgifymedical.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5200794487881728",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/Oa1R1QVUfQHZ3Xi0XOnLqMkvRM5JqdzXxoZ4zQkWZByeaLVi5F0KyHhUvP73JrQPpsYTaP6ZOoPvT0Fm5X9JVTw9Lfegtlunmq_R",
+    "fileName": "Surgify_Official_3.png"
+   },
+   "published": true,
+   "industries": [
+    "health",
+    "medtech"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4874312280440832",
+   "name": "Koru",
+   "shortDescription": "Graphics OS platform for beautiful user experience",
+   "description": "* Our Vision is that touch experiences will spread everywhere.\n!  Our mission is to empower brands to deliver unique user experience to their fans.\n€ Featured on millions of smart watches available globally.\n# We enable high-end user experience on low-cost HW. \n# We require 1000X less RAM than Wear OS for similar experience. \n\n€ Cashflow profitable 30+ world-class experts. 30% most experienced craftsmen have 40.000h of professional C-development skills.\n",
+   "founded": "2013-04-01T00:00:00.000Z",
+   "website": "http://www.korulab.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "4554705476780032",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/S0_Dd62mzmwjuqk_XrrWLqpnZ6DXdewtCsacYvarIz3kkC9uU8kZh-iAJI99fixSQE5maK-0oChpDKL33BIeY6KV_8eukFo9xC0P",
+    "fileName": "koru_logo_master.png"
+   },
+   "published": true,
+   "industries": [
+    "Design",
+    "sports",
+    "consumer_electronics"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4883413584576512",
+   "name": "Infinited Fiber Company Oy",
+   "shortDescription": "Textile",
+   "description": "IFC's process technology can turn textile, cardboard and agricultural waste to new and better cotton and not only once but infinitely without compromising in quality and comfort. I\n\nFC is running industrial pilot production in Espoo Finland since March 2018 and the material have been successfully proven by major brands and their present supply chain partners. IFC's revenue 2018 is € 1,4 million from fiber deliveries and prelicense product sales.",
+   "founded": "2016-10-01T00:00:00.000Z",
+   "website": "http://infinitedfiber.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5205764704567296",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/ZCtxKqitYfVBtAFthIIp_dcZ3byt3y8p6q_OEuURLjost5S4nidzWvmoAkIlvZfwIOOeOFOoOiyn4SgRnD65KTZjjoooaB5IT89i",
+    "fileName": "infinited_fiber_logo_transparent_background_2400px.png"
+   },
+   "published": true,
+   "industries": [
+    "materials_and_coatings",
+    "clothing_and_fashion"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4892202564059136",
+   "name": "Viimatech Digital Oy",
+   "shortDescription": "Viimatech is the cost leader in pump monitoring.",
+   "description": "Unique solution to optimize pumps and enable 1 000 000 000 EUR energy and maintenance cost savings in Europe with 30% costs to traditional systems. Extensive, scalable and easy to use solution is based to mathematical methods and cost optimized electronics.\nTraction is proven in POC projects in water utilities and process industry. Team combines experience from global tech. business, university science and daily maintenance tasks.\nA-round investment 2 MEUR in end 2019 for globalization.  \n \n",
+   "founded": "2017-06-01T00:00:00.000Z",
+   "website": "http://www.viimatech.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5708755706576896",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/3IzJSC7hfs2-fXu6yL2kTW8wpGp2TGaIrDbe_XuAZSW8A2nA8x88wN4VLm1AXV820N-BJUiCTrh68z6iLEWrPPa3yiTBy5U1f_3a",
+    "fileName": "LOGO2.png"
+   },
+   "published": true,
+   "industries": [
+    "oil_and_gas",
+    "metals_minerals_mining",
+    "water_and_wastewater",
+    "energy"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4904959355125760",
+   "name": "Sensmet Oy",
+   "shortDescription": "We let you see the quality of water in new light!",
+   "description": "Water is set to become the new oil as water scarcity spreads. Understanding the water quality continuously is the key for optimizing the water usage in industry and to prevent pollution.\n\nThis can be done with our TWA - Total Water Analyser™ technology, which lets customer truly understand the quality of the water – realtime. \n\n7 (years University R&D) + 4 (fulltime employees) + 1 (year as startup) = 200 000 (first year revenue)\n\nWe are looking 300k€ investment for market segmentation and entry.",
+   "founded": "2017-07-01T00:00:00.000Z",
+   "website": "http://www.sensmet.com",
+   "city": "Oulu",
+   "country": "Finland",
+   "logo": {
+    "id": "6331427448684544",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/UUtP3UIZmFNOULlK-Jahc5NX2y984XSCbrCxn8Fz6Z87Oypekn21B26NcyrSW0KlbkFkBlQ1LXdqcFH3y_NDJ2pCmtvQ50IAXJ7B",
+    "fileName": "sensmet_logo.png"
+   },
+   "published": true,
+   "industries": [
+    "water_and_wastewater"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "4914153269493760",
+   "name": "SkenarioLabs Oy",
+   "shortDescription": "Proptech & fintech",
+   "description": "We tell property owners, investors and financial institutes where to invest.\n\nOur platform tells you where to put your money to manage both the value and the costs meaning future repairs and maintenance of your real-estate. Both residential and commercial. E.g. if you’re looking at 20000 units in your portfolio and you have a budget to invest in half… which units should you choose and why?",
+   "founded": "2015-02-01T00:00:00.000Z",
+   "website": "http://skenariolabs.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5169858777972736",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/zpDkDDs6C9gtleSqrWnRJJvFi2eI8AAiKcxuQVFCdXsZqUPgkbvde8c5mOu1rfERhxazWMwPM19dsry5dTW6QxC-WFgKPgisv1Gk",
+    "fileName": "Skenarios-Logo-ColorBlk_800px_16.9.jpg"
+   },
+   "published": true,
+   "industries": [
+    "financial_and_insurance",
+    "construction_and_real_estate"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5032136356659200",
+   "name": "Dailuge Inc.",
+   "shortDescription": "Ohjaa knows what a Chinese traveller wants.",
+   "description": "For the first time, a Chinese traveller sitting in his couch at his Xi ´An home can discuss his travel plan `face to face ` with another Chinese standing by a window in his Reykjavik house. For the next 10 minutes, he might decide to talk with someone in Paris. Ohjaa is the first face-2-face trip planning service in the world.\n\nOhjaa engages 200+ Hosts and the Network covers 17 cities across Europe. We will cover all major European cities with 1000+ Hosts by the end of 2019.",
+   "founded": "2017-03-01T00:00:00.000Z",
+   "website": "https://www.ohjaa.com/",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "5757956570218496",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/0LIQpkjhqsaL_mXNPpZiOjpzgy23uGzoIc3rv21fpbwFyjiD1AK70Wa6Ug4FvG7IlMOZQ8KpKMrmdVAqIEDBo42m1L8G2khYCsK9",
+    "fileName": "Ohjaa_logo_coral.jpg"
+   },
+   "published": true,
+   "industries": [
+    "travel",
+    "hospitality_and_travel"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5076560746905600",
+   "name": "ANAXEOS",
+   "shortDescription": "Pet wearables. The Next multi-billion dollar market.",
+   "description": "Best Shared Life with Dogs.\n \nReflects the mutual value data and technological advancements can offer for dogs and people living and working with them. ",
+   "founded": "2016-02-01T00:00:00.000Z",
+   "website": "https://www.anaxeos.io",
+   "city": "Helsinki",
+   "country": "Global",
+   "logo": {
+    "id": "5891456904462336",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/rcAh4lxlSjQ5T0fmXRTfI0gYi3S73iPBe5ni8MwGoNDVuYXfMbVOa20UnCCdFq983pcwOrPOKxyUqEVRx2RoWVo-RPmqTUMbBxkYtg",
+    "fileName": "anaxeos_graphite_TM.png"
+   },
+   "published": true,
+   "industries": [
+    "sports",
+    "retail",
+    "digital_health"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5079433207611392",
+   "name": "BOARDIO",
+   "shortDescription": "Connecting companies with advisors",
+   "description": "Boardio connects companies with skilled individuals available for advisory work. Boardio has a global pool of over 2000 candidates with skills and availability for advisory and board positions. Companies needing external advisors can post an recruitment ad for free and let interested advisors apply. Companies can also browse advisor base and contact the ones that seem to have skills needed. Using Boardio is free for both companies and individuals. Premium packages are also available.",
+   "founded": "2016-01-01T00:00:00.000Z",
+   "website": "http://www.boardio.com",
+   "city": "ESPOO",
+   "country": "Finland",
+   "logo": {
+    "id": "6242037770747904",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/W_1umpSDuHtanIG28ayhqKCtQE3KmBEORkgB5Rzf-ro0ynjT-_zIP75OF7wSOat1vIjBS3hurj7Vzsf2fXa84PS69_Twx8Dm5Di5zQ",
+    "fileName": "Boardio logo.png"
+   },
+   "published": true,
+   "industries": [
+    "marketing_and_communication"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5091506696224768",
+   "name": "RF SensIT ",
+   "shortDescription": "Continuous moisture monitoring",
+   "description": "Sensors for monitoring moisture in building structures.",
+   "founded": "2012-02-01T00:00:00.000Z",
+   "website": "http://www.rfsensit.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "published": true,
+   "industries": [
+    "air_quality"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5093108584808448",
+   "name": "BroadBit Batteries Oy",
+   "shortDescription": "Energy Storage / Batteries",
+   "description": "BroadBit has developed a novel low-cost/high-performance/robust/eco-friendly/scalable sodium chloride battery technology with 50% more energy per unit cost and 25% more energy per unit mass as lithium-ion. We are now seeking funders and partners to help us commercialize the technology for applications in electric vehicles, portable electronics and grid stabilization.",
+   "founded": "2015-12-01T00:00:00.000Z",
+   "website": "http://broadbit.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5710855106723840",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/qLyYqGNNwdVRzO_sGWW4IuE-7EG1zgdRnr5Yb4O9gxGkP6Sd3E75eLosDyZAOowmS_NXgzP0jYjETboxhtf0Ysn2ayiJiSsIWtr5",
+    "fileName": "BBB logo 300ppi.png"
+   },
+   "published": true,
+   "industries": [
+    "automotive_and_transportation",
+    "energy"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5093723872428032",
+   "name": "360Visualizer Oy",
+   "shortDescription": "Hospitality",
+   "description": "Visualizer drives hotels’ sales by filling unused meetings and events capacity.\n\nVisualizer Engage & Sell is a B2B software tool, which includes content management, distribution, and analytics. It is delivered as a service from the cloud via a web and mobile user interface. It is sold to hotels and venues and subscriptions are billed annually.",
+   "founded": "2013-02-01T00:00:00.000Z",
+   "website": "http://visualizergroup.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5076324926357504",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/y16OxKSHFZvsqDIsPNCwuK5jxp-8TdL2BvdkL6WWZnz8guibX1_k_PjnM628IiAPze1sHDj6I6hMmJ63jvIHqwSkRD7cY3OoK_A",
+    "fileName": "Visualizer_logo_green_vertical.jpg"
+   },
+   "published": true,
+   "industries": [
+    "hospitality_and_travel"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5124418560851968",
+   "name": "Desentum Oy",
+   "shortDescription": "Biopharma",
+   "description": "Desentum is a research-oriented biopharmaceutical company specialized in developing novel types of allergen immunotherapy products that are based on switching the immune system's response to allergens from hypersensitivity to tolerance. We have a unique approach for designing the hypoallergens used in immunotherapy. \n",
+   "founded": "2011-10-01T00:00:00.000Z",
+   "website": "http://desentum.fi",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5655266787852288",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/uNl78Au1idL5jpbPw2eMw7I9pbv-M6A94_zFg9OAlJWORwaMgLqzE66iPCyl6McepEoPAfhO5G_4rYQc38aI3V_ustSqASbmlBDr",
+    "fileName": "desentum-logo-800x800px.png"
+   },
+   "published": true,
+   "industries": [
+    "pharmaceuticals",
+    "biotech"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5145373974724608",
+   "name": "Paptic Oy",
+   "shortDescription": "Packaging, renewable materials, manufacturing",
+   "description": "Paptic is unique combination of benefits of paper, plastics and textiles. It is extending the market of packaging papers and replacing plastics through technical performance and it is the only plastic replacing material which is recyclable in paper recycling, directly suitable for plastic converting machines and providing textile-like quality experience.",
+   "founded": "2015-03-01T00:00:00.000Z",
+   "website": "http://paptic.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5168618539057152",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/iTqksRirSv8LaS5JEzNoWpp12mSO7UMcU8zHx1yGwehS32dvNZqTHZNxPvk4qOICs-xivseBTV04upY3LYr24mxRp75ClMyzbMg",
+    "fileName": "Paptic_Logo_JPG.jpg"
+   },
+   "published": true,
+   "industries": [
+    "manufacturing",
+    "materials_and_coatings"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5152369335599104",
+   "name": "Smidyo",
+   "shortDescription": "Quotation Automation for small businesses.",
+   "description": "Small Businesses that sell a complex product, such as manufacturing, or a service, spend a lot of time calculation quotes. \n\nThat's why we have created an easy to use SaaS that allows the business owner to set up a self-service quotation portal for their customers.\n\nWe offer the low barrier of entry of something like Shopify, but the flexibility of an otherwise expensive bespoke system.",
+   "founded": "2017-12-01T00:00:00.000Z",
+   "website": "http://smidyo.com",
+   "city": "Uusikaarlepyy",
+   "country": "Finland",
+   "logo": {
+    "id": "5800291257548800",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/LAEp0dWodTQukBevTqEEjYlzm1bruR82zdbRYEQt5qwGmz-UkjI_ZqvoZgxNE2uMkU5svdOuoKZupTE31hnT4PDLjWSaKvm6Ybc",
+    "fileName": "small_logo.png"
+   },
+   "published": true,
+   "industries": [
+    "manufacturing",
+    "e-commerce"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5155044764680192",
+   "name": "Oppi AI Oy",
+   "shortDescription": "We develop an AI-based technology for education",
+   "description": "We use recent advances in AI to create a technology that makes education personalized, help teachers and learners enjoy new education, more effective and efficient.",
+   "founded": "2018-08-01T00:00:00.000Z",
+   "website": "http://www.oppi.ai",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "4885175729127424",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/rzDUWvKOtrULO5YK8O_QI0Kofdr3HITmQ_0FERJzSdmjmrQDHIYl2P6ttEAfd1gTDuR1JyhCooTCYv2THBOdlEExUTBfDOA7ZQ",
+    "fileName": "oppi_logo.png"
+   },
+   "published": true,
+   "industries": [
+    "education"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5175526356418560",
+   "name": "ICEYE Oy",
+   "shortDescription": "Aerospace and analytics",
+   "description": "ICEYE is the first organization in the world to successfully launch synthetic-aperture radar (SAR) satellites with 20-fold weight savings and is the World’s leading company in miniaturized SAR technology. ICEYE empowers others to make better decisions in governmental and commercial industries by providing access to timely and reliable satellite imagery. The company is tackling this crucial lack of actionable information with world-first aerospace capabilities and a New Space approach. ",
+   "founded": "2014-09-01T00:00:00.000Z",
+   "website": "http://www.iceye.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5637869485948928",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/CzDmRfuoCT2tPb-L8nk0BAnzWnJAC8nGn1gL_Tg4LHY24IniWh8_4MOAJNrLM8MlRsh9344FnNdAphRF7NRcnO01XV3Lzv68K1ax",
+    "fileName": "Iceye-logo-black.png"
+   },
+   "published": true,
+   "industries": [
+    "aerospace_and_defence"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5177753464733696",
+   "name": "Wizense Oy",
+   "shortDescription": "IoT Solutions",
+   "description": "Wizense has specialized providing leading industrial IoT solutions from sensors, gateway connectivity, analytics pipelines, serverless backends to mobile applications.\n\nOur IoT field connectivity offering called Fieldsight can get your business connected fast from industrial wearable to edge gateway.\n\nContact us for more information: info@wizense.com or call +358 40 8031910\n",
+   "founded": "2016-03-01T00:00:00.000Z",
+   "website": "https://wizense.com/",
+   "city": "Vantaa",
+   "country": "Finland",
+   "logo": {
+    "id": "5751864561762304",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/uAoC3qLGrKacqmfuXunn-niuWj0SESvLBtZoluTMEVpLDbfVKdBatO2AN6SRM6m-SYZwV5YLvo1eczmaONq8vl4TKeuXxAU7ShHFSQ",
+    "fileName": "wizense_new_slogan-slim.png"
+   },
+   "published": true,
+   "industries": [
+    "manufacturing"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5178081291534336",
+   "name": "Teraloop Oy",
+   "shortDescription": "Breakthrough in Electric Energy Storage",
+   "description": "As global demand for energy continues to grow we need to tackle three main challenges; improving the integration of renewable energies, reducing energy losses and increasing large scale energy storage. Furthermore, we need to oversee the future where we need to be 100% powered by renewable assets, we need to have our grid security designed to withstand heavy drops and loads of renewable energy, also to have a response system to react to rapid load demand from consumers and industries. ",
+   "founded": "2014-10-01T00:00:00.000Z",
+   "website": "http://teraloop.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5078956801785856",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/C9B0AdB5q7KN6R7nfXMq8PvjGBFyid4YGaegCd_CAiuTGrWDf68Fc3E5rZXNZyg0jYdfBaEMduXbkntq950g8D2e1xPK3Zx80RtjbA",
+    "fileName": "Teraloop logo (1).jpg"
+   },
+   "published": true,
+   "industries": [
+    "energy"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5179437226131456",
+   "name": "GIM Oy",
+   "shortDescription": "Leading mobile robotics company in EU",
+   "description": "Gim is the leading mobile robotics company in EU. With our laser based navigation and control system any indoor or outdoor ground vehicle can be automated. System has been proved in several applications from indoor logistics to autonomous cars and forest machinery.",
+   "founded": "2014-01-01T00:00:00.000Z",
+   "website": "http://www.gimltd.fi",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5731568492478464",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/yuy_ujdu8cNknOCsRHgTcR0_N76nDZFNk_MD-EJjDZB7bTvvA9G_7FyUjffj5zDsB2m3zk9XHMWJt9RfotBm-WF6eHlWoKEhwgU",
+    "fileName": "GIM_Roboticssvg.png"
+   },
+   "published": true,
+   "industries": [
+    "automotive_and_transportation"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5181555517423616",
+   "name": "Emergence Oy",
+   "shortDescription": "Taival maintenance free location tracking solution",
+   "description": "Taival, GSM based location tracking solution.  Our biggest advantage is totally maintenance free device. No need to replace or re-charge batteries for ever. Our customers can reduce the amount of their assets by 20% or sell their service 20% efficiently. We are tracking our customers containers, skips, truck trailers, buoys, train vehicles and small machinery. We will offer mobile application and web user interface to manage assets. Or we can connect data into customers IT-system via REST-API",
+   "founded": "2008-02-01T00:00:00.000Z",
+   "website": "https://www.taival.global/",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5738700218564608",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/OnPd9PQQhBf_ducTZe9WoRRHuC1FiXj2PyE5F9VuJtKSdoRVusMR2kfb_5CW5EZktwnV9o9gfQXbPS7kmQ0kqwh0MWXfg9GwQY1KhQ",
+    "fileName": "taival_logo_emergence_vertical_black.png"
+   },
+   "published": true,
+   "industries": [
+    "logistics",
+    "waste_and_recycling",
+    "automotive_and_transportation"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5186025303310336",
+   "name": "EEE Innovations Oy",
+   "shortDescription": "Software-based solutions for ecological driving",
+   "description": "Our solutions eGRIP and eDAS aggregate data from vehicles and third-party sources to cloud where it is analyzed as real-time slipperiness, vehicle, driving style and traffic flow optimization information. The refined data is then sold to various third-party sources as insurance companies and logistics companies. \nThe solution is scalable (SaaS) service for transporters, public transportation, logistics and road maintenance operators. We are looking for funding for geographical expansion.\n",
+   "founded": "2014-06-01T00:00:00.000Z",
+   "website": "http://www.e3inno.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5664961502117888",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/NbsdIVl-l_2alAr-7X7Zsn0OcgPJ3AO3CrYolt8wi4fw0WRO3BF4WHMk4N2KtE7RvniDskYjv6rTQ1dtEyzBFEc5SxplPD5SoLGa",
+    "fileName": "e3inno_posi_color.PNG"
+   },
+   "published": true,
+   "industries": [
+    "logistics",
+    "automotive_and_transportation",
+    "impact"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5350200428199936",
+   "name": "LUOTSI",
+   "shortDescription": "Luotsi connects companies looking for partners",
+   "description": "Luotsi is your ultimate source for B2B connections. List your own company on Luotsi to find partners, funding, service providers or what ever your need is. Browse other companies and get in touch with the ones you want to co-operate with. Luotsi is completely free to use.",
+   "founded": "2018-08-01T00:00:00.000Z",
+   "website": "http://www.luotsi.io",
+   "city": "ESPOO",
+   "country": "Finland",
+   "logo": {
+    "id": "6244727292690432",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/0lm86Gtr2zQ66W7rWFRQ2jmkU0c1JI_-PESy6XdPz9C8BkNXDtMw1e3BI_7Dmcv1HPAOrDTqAmLutpgyV7DlnkgNFwz6USQRiBEx",
+    "fileName": "logo-int.png"
+   },
+   "published": true,
+   "industries": [
+    "marketing_and_communication"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5369190424772608",
+   "name": "Liikennevirta Oy",
+   "shortDescription": "Electric vehicle charging solutions",
+   "description": "We bring electric vehicles into peoples everyday life and as a part of energy system",
+   "founded": "2013-12-01T00:00:00.000Z",
+   "website": "http://virta.fi",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "5206770867765248",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/INVe334P5lmxWpbTTnzVuXhHAMEq9-RNynesTCfA5N4pZ4Sc0Cy40ew_MdAFT8H0fg5R1YIX1PZ5WAZv5n6hWOb4LHvg4a3t4W1G",
+    "fileName": "virta.png"
+   },
+   "published": true,
+   "industries": [
+    "energy"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5378078792482816",
+   "name": "Replex",
+   "shortDescription": "Enterprise Software Solutions",
+   "description": "As the central source of information of your IT inventory, Replex provides full transparency throughout your infrastructure, independent of the underlying technology. Replex consolidates critical information in real-time concerning actual server capacities and, therefore, can identify inefficiencies in your IT landscape instantaneously.",
+   "founded": "2016-01-01T00:00:00.000Z",
+   "website": "http://replex.io",
+   "city": "Duisburg",
+   "country": "Germany",
+   "logo": {
+    "id": "5710358266249216",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/5uZ17r-NLZfs9Ib9aWiORJPoODZ1i3oWztcE54Ohfu-YSgInFmvJPfBo4iP2sd0LssNsniwKaSWPQZIPPURG83LGPsXrI8tWAdM",
+    "fileName": "replex-logo-black.png"
+   },
+   "published": true,
+   "industries": [
+    "Diagnostics"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5391786549706752",
+   "name": "BackedByCFO Oy",
+   "shortDescription": "Fintech",
+   "description": "SMEs get paid faster and lenders can approve more creditworthy Customers with real-time, behavioral credit model based on real-time payment behavior added by alternative data sources.",
+   "founded": "2016-06-01T00:00:00.000Z",
+   "website": "http://backedbycfo.com",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "6250727496220672",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/kphSiiVJc20s5Z3xoz6ILPf4aveA95rNNd0HOFrMOt2_fyzFErT4cqkMUTs6YEpCzR6TdX_vrM_1lumbrPKkQ-815yylzPf7gHGB",
+    "fileName": "backedbycfo.jpg"
+   },
+   "published": true,
+   "industries": [
+    "financial_and_insurance"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5427961951944704",
+   "name": "Kartano Tech Oy",
+   "shortDescription": "Crypto currecy webmining platform",
+   "description": "Monero webmining platform to allow content creators receive donation through crypto currency mining meanwhile users are consuming contents on web sites",
+   "founded": "2017-03-01T00:00:00.000Z",
+   "website": "http://kartano.net",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "4776739548954624",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/4jrfszj5yq9FhAgtXT158iY_eI7gu-bWd-mNEsnkOsN4_EMKiY4Hm_UQ0j-hDTJdl-q_jDcLlFFE89PzjiyGirynuZEhF9paF3g2",
+    "fileName": "kartano-black-600x200.png"
+   },
+   "published": true,
+   "industries": [
+    "entertainment_and_media",
+    "cryptocurrencies",
+    "marketing_and_communication"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5451760231514112",
+   "name": "ContractZen ",
+   "shortDescription": "Contract Mngmt, Board Portal, eSignatures & VDR",
+   "description": "No more missing documents, forgotten dates or painful preparations for internal or external audits. ContractZen is the ultimate solution for Everyday Due Diligence. One easy-to-use cloud service with contract and meeting management, virtual data rooms (VDR), e-signatures and more! Now with OCR, Office 365 Single Sign-On and Outlook calendar integration.",
+   "founded": "2014-09-01T00:00:00.000Z",
+   "website": "https://www.contractzen.com",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "5464533195816960",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/Kvpeu3qNyR10dPwjLF33FoEizCa8n8mwoJt7EMSK0fYFqmQ6cieuqWlsozxuIAF5rI2Q2VSh_Is-ouJEIv2QCRnrqTawCSJP386i",
+    "fileName": "CZ-Logo_Blue_Hi.png"
+   },
+   "published": true,
+   "industries": [
+    "aerospace_and_defence",
+    "education",
+    "Diagnostics",
+    "877a9c3d-b530-4707-930e-69f4bb53a6f2",
+    "automotive_and_transportation",
+    "logistics",
+    "hr",
+    "retail",
+    "Design",
+    "oil_and_gas",
+    "manufacturing",
+    "e-commerce",
+    "metals_minerals_mining",
+    "energy",
+    "6f086252-72eb-445c-b155-a584245caa01",
+    "entertainment_and_media",
+    "gaming",
+    "digital_health",
+    "construction_and_real_estate",
+    "agribusiness_and_farming",
+    "sports",
+    "on-demand_services",
+    "89590a2b-8d44-4d83-aaf9-3fad0b5ff06f",
+    "consumer_electronics",
+    "health",
+    "marketing_and_communication",
+    "air_quality",
+    "pharmaceuticals",
+    "cybersecurity",
+    "clothing_and_fashion",
+    "biomaterials_and_implants",
+    "financial_and_insurance",
+    "nutrition_food_beverages_supplements",
+    "medtech",
+    "travel",
+    "biotech"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5457001333129216",
+   "name": "Wowanders",
+   "shortDescription": "World's smartest travel diary & sharing platform",
+   "description": "Wowanders automatically turns your trips into diaries and makes it easy to share recommendations on hotels, restaurants & sights with friends. By automating content creation we fundamentally change how people can share experiences.\nOur revenues come from booking commissions and we're aiming at 45M€ revenues  in 2021.\nIn few months after soft-launching we already had 5 000 downloads and users had added 2500 trips.\nWe have gathered so far 200K€ financing, and next step is 500-800K€ seed round.",
+   "founded": "2017-08-01T00:00:00.000Z",
+   "website": "http://wowanders.com",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "6297005097746432",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/emui3TyIZi97kMg6pP4dAGic1QDPv3yp0ysLAZ57Tk31lKLmKNruM4mdG1VqcTBZuMDeB4q_Z_1yWKcGNRvl7QaUCnYJMSaSDcv5",
+    "fileName": "wowanders_logo_rgb.png"
+   },
+   "published": true,
+   "industries": [
+    "travel",
+    "hospitality_and_travel",
+    "entertainment_and_media"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5636026810761216",
+   "name": "Cozify Oy",
+   "shortDescription": "IoT, Smart Home, Smart Living",
+   "description": "Cozify makes smart devices play together. Cozify connects smart devices from different manufacturers into one seamlessly working entity. It provides a single application to control and automate homes and buildings – taking care of security, energy saving and comfort.\n\nCozify is already a popular end-user product and we have traction in partner sales. Our main goal is to offer a platform for other enterprises to make their own smart living offering.",
+   "founded": "2013-06-01T00:00:00.000Z",
+   "website": "https://en.cozify.fi/",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "6292550612680704",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/1MOOt4AOED-NaF_k-HmbYntU7QLVp9qFBKBjJq0UrUKk8qFtqUUmO2AuLtNS-TdKa4z4D3mWnKmNgqVlOw5zNPJaH6sFwojWQZrB",
+    "fileName": "cozify_logo_600px.jpg"
+   },
+   "published": true,
+   "industries": [
+    "construction_and_real_estate"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5639026912526336",
+   "name": "Addcomposites Oy",
+   "shortDescription": "plug-n-play manufacturing tool and automation",
+   "description": "Composite manufacturers face a huge problem of labor driven manufacturing and a high cost of automation. Addcomposites product/technology solves this problem by process and value chain innovation. We provide plug-n-play manufacturing tool and automation\n\nBusiness Model \nIndustry/Market: Composite manufacturer for Automotive, Sports, Aerospace, Wind \nRevenues: Product sales/lease followed by an annual maintenance contract\nGo to Market: Direct sales to users of the technology",
+   "founded": "2017-12-01T00:00:00.000Z",
+   "website": "http://addcomposites.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5643172898144256",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/1YDc1Tzdcfp2LQ8eKP7XR1mKrK_MNMy0NG77FJ_7RPA_daZRwm6OqNT78a9kjxdhvwUTKJhtj52o1mERzmY97l8z8RLG6dPFPfTb",
+    "fileName": "addcomposite.png"
+   },
+   "published": true,
+   "industries": [
+    "materials_and_coatings"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5639510700326912",
+   "name": "Prinergy",
+   "shortDescription": "Game changing solar energy technology for architecture",
+   "description": "Breakthrough in perovskite solar cell technology\n\nTotally new way of producing solar cells.\nInexpensive, fully automated and scalable manufacturing process.\nTested, proofed and ready for making business.",
+   "founded": "2018-07-01T00:00:00.000Z",
+   "website": "http://www.prinergy.io",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5170285254803456",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/3fc3z51I8cIGtJGDMxqYh9osqaEzqzn488wedRGhL9xYPP15fL4yr_2zimFiJZM-ROh9TeaLqydOkOiZ353eFw1P9Aad-F4Gra2Z",
+    "fileName": "prinergy.png"
+   },
+   "published": true,
+   "industries": [
+    "Design",
+    "manufacturing",
+    "air_quality",
+    "energy"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5640060892348416",
+   "name": "EntoCube Oy",
+   "shortDescription": "Leading edible insects farming solutions provider",
+   "description": "EntoCube is the leading edible insects farming solutions provider in the Nordics. We are an international team based in Espoo, Finland and our mission is to bring edible insects based food to everyone's attention by developing efficient farming solutions and super tasty insect products.",
+   "founded": "2014-12-01T00:00:00.000Z",
+   "website": "http://entocube.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5142291060621312",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/lCNDD-QctYSW5OGoPS02buu8Npvpxr4N-GaEmUUlqyLIzCpqKODw4R0PorpKyhkXt7utDtyAxHAxltZcxqrVHxkp-ub0R-qcOcJz",
+    "fileName": "entocube.png"
+   },
+   "published": true,
+   "industries": [
+    "nutrition_food_beverages_supplements",
+    "agribusiness_and_farming"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5641906755207168",
+   "name": "Aerial Coboticus",
+   "shortDescription": "Multi-rotor industrial drones with robotic arms",
+   "description": "AERIAL COBOTICUS develops tethered multi-rotor industrial drones fitted with robotic arms to carry out high-precision work at heights or in inaccessible areas.\nOur tethered industrial UAV fitted with robotic arms is able to perform high-precision work at heights in inaccessible areas.\nDesigned with rugged industrial components that have proven their value in industry, it can carry heavy weights (up to 100kg).",
+   "founded": "2015-05-01T00:00:00.000Z",
+   "website": "http://aerialcoboticus.com/",
+   "city": "Paris",
+   "country": "France",
+   "logo": {
+    "id": "5630742793027584",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/3JqHRTubETM3n0jgZL4_0ACqKSRBHp0uAZb3tEmbk0Fp7IC-dJJcNEISzz5_c6nru4xE-knYJ-AgymmJ4VtvgTVtd3ljzef4qdDisA",
+    "fileName": "AC.png"
+   },
+   "published": true,
+   "industries": [
+    "aerospace_and_defence"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5642383161032704",
+   "name": "Hodarifillari",
+   "shortDescription": "#1 Catering",
+   "description": "-",
+   "founded": "2016-01-01T00:00:00.000Z",
+   "website": "http://www.hodarifillari.fi",
+   "city": "Espoo",
+   "country": "Finland",
+   "published": true,
+   "industries": [
+    "nutrition_food_beverages_supplements"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5642779036221440",
+   "name": "Navigil Oy",
+   "shortDescription": "Wellbeing and telehealthcare",
+   "description": "Rapidly growing cost of elderly care becomes unbearable unless independent living at home can be extended.\nOur solution consists of the Navigil S1/S3 mobile telehealthcare wristwatches with mobile phone, GPS tracking and activity monitoring features supported by mobile communication, location and Navigil Rafael management services which enable blended care model and optimal use of scarce care resources. Up to 30% of healthcare cost can be avoided with preventive care of elderly persons.",
+   "founded": "2010-12-01T00:00:00.000Z",
+   "website": "http://navigil.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "4822945343995904",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/BqLe4IGi_bboT1bNk-kXp8lC6sYrb7-KPKiGwhCub3yPVFWWPoT052H2nVDgYUEWa6Zy7vaZNU8MRAnzcwrhklvtzHbStXjS2f4",
+    "fileName": "Navigil.jpg"
+   },
+   "published": true,
+   "industries": [
+    "health",
+    "medtech",
+    "digital_health"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5648825477758976",
+   "name": "KotiKyla.com ",
+   "shortDescription": "Digital platform helping people to buy/sell homes",
+   "description": "kkk",
+   "founded": "2018-01-01T00:00:00.000Z",
+   "website": "https://kotikyla.com",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "5117730592129024",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/tjuK1cdrQZ-ZeKIP0YoU4tgtlthS6WxNC2ytcO2-Bz-Gklp8fMxWAlokrTEmm93z9Nt5UWyyms5bclH3ZrBeOvnOGfFvrgNq3Rw",
+    "fileName": "kotikylän logo317 isompi läpinäkyvä.png"
+   },
+   "published": true,
+   "industries": [
+    "e-commerce",
+    "construction_and_real_estate",
+    "education"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5650258788876288",
+   "name": "Custobar Oy",
+   "shortDescription": "The only marketing platform for retail",
+   "description": "Strict focus on developing all product features solely for the mid-sized multichannel retailers has given us a good advantage to compete even against the high-end players in the market like Adobe and Salesforce. We have succeeded in selling our solution in 9 different countries and our MRR is in rapid growth.\n",
+   "founded": "2014-10-01T00:00:00.000Z",
+   "website": "https://www.custobar.com/",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "6267421899882496",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/xHAagwZxSy89CE2DjJBfyyeAIuUEtjwyPnFs-mPerl7rjZ6BQkAj7ZhceDn748tvLzx3uJBLAzv5raRSioSfMM_6aHJgfHLFAQ-6HA",
+    "fileName": "Twitter_400x400.jpg"
+   },
+   "published": true,
+   "industries": [
+    "marketing_and_communication"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5668600916475904",
+   "name": "Firstbeat Technologies Oy",
+   "shortDescription": "Performance analytics for sports and well-being",
+   "description": "Firstbeat is the leading provider of science-based performance analytics for sports and well-being. Hundreds of elite sports teams, thousands of employers, and millions of consumers worldwide trust us to reach their potential with confidence.",
+   "founded": "2002-09-01T00:00:00.000Z",
+   "website": "http://firstbeat.fi",
+   "city": "Jyväskylä",
+   "country": "Finland",
+   "logo": {
+    "id": "5741031244955648",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/e0KfFe1K33ODZzxxQNvmxEEBKs5fJSlvZhxV7wlx--ZLg60JyVqacLpFct5LdVFL4yursP4EF3kQNyd2TyV-dnPKJhcdUXRZ17Q",
+    "fileName": "firstbeat_logo_slush.jpg"
+   },
+   "published": true,
+   "industries": [
+    "sports"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5672749318012928",
+   "name": "Tekliko",
+   "shortDescription": "Turn health data into valuable information",
+   "description": "Spe3dLab is an open source data analysis platform to turn health data into valuable information. The tool was co-developed and co-designed with INSERM laboratories in France, as well as practicians at AP-HP and CHRU Brest.\nSpe3dLab is involved in various proof of concept projects in the following fields: reanimation, hospital hygiene, ambulatory as well as forensic medicine units and in a mutual insurance project.",
+   "founded": "2015-01-01T00:00:00.000Z",
+   "website": "http://speedlab.io",
+   "city": "Paris",
+   "country": "France",
+   "logo": {
+    "id": "5649050225344512",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/H7FUzj8TNaICvH_4zDFUQwSTTIOi8helFC-FOP6ZOP68DmkLxKZjoOBb86D08-P19A80UMUENxEu5cotndu6rb1g5_1GfuQAkxk",
+    "fileName": "logo_tekliko_1000x239.png"
+   },
+   "published": true,
+   "industries": [
+    "Diagnostics",
+    "digital_health"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5676533754626048",
+   "name": "Sensible 4 Oy",
+   "shortDescription": "Robotics, AI, transportation and mobility",
+   "description": "Best in the class vehicle automation system for difficult environments. The solution is based on intelligent combination of various sensors scanning the surroundings of a vehicle and an artificial intelligence and software developed in-house, which is controlling and navigating the vehicle. It has been tested in harsh Finnish winter conditions. Our automation system is platform free and can convert cars and other vehicles to automated ones so that they can be driven driverless.",
+   "founded": "2017-02-01T00:00:00.000Z",
+   "website": "http://sensible4.fi",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5111103625363456",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/7XB9_n8AR-1dZkRKtDFORjIiq9iZbi_bjJZnY3e0ZAqIG8MbmnQiAQzNBPVWNSUkp0Dvz50UoVKmsLFPJrkwXQou25MLEJMyj5Qq",
+    "fileName": "S4_logo2_color.png"
+   },
+   "published": true,
+   "industries": [
+    "automotive_and_transportation"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5684907766448128",
+   "name": "Mesensei",
+   "shortDescription": "Private social networks",
+   "description": "B2B Platfrom for building GDPR compliant private social networks with great mobile UX",
+   "founded": "2016-09-01T00:00:00.000Z",
+   "website": "http://www.mesensei.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5480426990731264",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/QWBP9plnuy6LE7RNJ1ir_d87bGv0k1iUOKsRDBC-ges3w_BBMZgqzps3R2N2okABSwPUXGLroReftmpV2LnHQgbkt-cR_b-TD8MlFQ",
+    "fileName": "Mesensei.jpg"
+   },
+   "published": true,
+   "industries": [
+    "marketing_and_communication"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5691127080419328",
+   "name": "Sekho Brothers Oy",
+   "shortDescription": "IT services, Kuittilompakko service for e-receipts ",
+   "description": "We have develop Kuittilompakko service for receiving, archiving and delivering receipts to accounting firms. Aim is to get rid off unnecessary paperwork and automatize the whole process with structured receipt data.\n\nBenefits:\n- Handling receipts with one application\n- An easy way to handle receipts\n- Transferring receipts to accounting softwares in real-time\n\nHow to use\n- Register to service\n- Link payment/loyalty card\n- Make purchases and receive e-receipt automatically\n",
+   "founded": "2015-02-01T00:00:00.000Z",
+   "website": "https://kuittilompakko.fi",
+   "city": "Pirkkala",
+   "country": "Finland",
+   "published": true,
+   "industries": [
+    "on-demand_services"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5697302505193472",
+   "name": "Reaktor Space Lab Oy",
+   "shortDescription": "Space Technology",
+   "description": "Reaktor Space Lab provides state-of-the-art nanosatellite technology & space-based services. We help companies expand their business beyond Earth by co-created space missions. In-house design and manufacturing in Otaniemi, Finland.",
+   "founded": "2016-05-01T00:00:00.000Z",
+   "website": "http://reaktorspace.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "6295758684815360",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/bU_yS_MPj4twg-zZkFETJCqRaQvfCMT4kLiTUjehSwtAgr5PHNoWanS9cDCZlw_XcADhTtk-0PliWSsMFnOQpewN_lrnQzSAg4D6",
+    "fileName": "reactorspacelab.png"
+   },
+   "published": true,
+   "industries": [
+    "aerospace_and_defence"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5705241014042624",
+   "name": "Dispelix Oy",
+   "shortDescription": "See-through-displays for augmented reality devices",
+   "description": "Dispelix is a fabless supplier and developer of see-through-displays for augmented reality devices manufacturers and developers. Dispelix See-through-displays delivers thinnest, lightest and best form factor. This is realized by the single layer design. Total thickness of the waveguide is .8mm",
+   "founded": "2015-10-01T00:00:00.000Z",
+   "website": "http://dispelix.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5748345607815168",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/psHjYm1UEEbEOcLjaeN9sTciW_E_cLcph4b5QFI8YTf_RFjPrkRo2SxX8Vgkv8LhOUe7syHaaaA87XuhJGzZ8Ah0cgCVq9h3oRQ0",
+    "fileName": "dispelix_logo_RGB.jpg"
+   },
+   "published": true,
+   "industries": [
+    "consumer_electronics",
+    "materials_and_coatings"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5706275094528000",
+   "name": "CARFIT",
+   "shortDescription": "Monitor and predict maintenance like never before",
+   "description": "CARFIT leverages vibration analysis with edge learning to create self-learning predictive maintenance solutions for the aftermarket and for native integration into parts and new car platforms.",
+   "founded": "2016-01-01T00:00:00.000Z",
+   "website": "http://car.fit/",
+   "city": "Paris",
+   "country": "France",
+   "logo": {
+    "id": "5641497726681088",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/c84KS1XbWN_LziceUdWPz4yzBzLoX0tSjLNPwzShSp3czYhCiQ6wLoyYsbH3eN4QqigGmINzRaBo--aeK88IizRnbet1gjdfcgKrWQ",
+    "fileName": "CARFIT_Logo_201601215-02.jpg"
+   },
+   "published": true,
+   "industries": [
+    "consumer_electronics",
+    "on-demand_services",
+    "automotive_and_transportation"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5713573250596864",
+   "name": "Skillgrower oy",
+   "shortDescription": "The best solution for learning math using AI",
+   "description": "Skillgrower is an online learning platform for math. Studying is more fun and efficient due to AI and gamification. Customers are schools and the after-school market. Our team Hans unique knowhow and we have created a well received first product with minimal funds (around 60k). Our pilots with Tampere and Espoo have generated more interest than expected. \nWe are looking for investors with knowhow of growing startups and people with connections in relevant fields.",
+   "founded": "2016-06-01T00:00:00.000Z",
+   "website": "http://skillgrower.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "6449742993162240",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/8Wivq88CMrao5TMxHa4eY62uymF8VpOLAqng8sYKQgP2csRjAlvjje3Khx0XF5LaPMvFJBi-55xvaPv0ADMPO9ICtqumBnKXChwGJA",
+    "fileName": "730596e3-c894-4ffd-9547-85ba10ee89b4.png"
+   },
+   "published": true,
+   "industries": [
+    "education",
+    "impact"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5724948068827136",
+   "name": "Consair oy",
+   "shortDescription": "Coming soon...",
+   "description": "Coming soon...",
+   "founded": "2012-04-01T00:00:00.000Z",
+   "website": "http://consair.fi",
+   "city": "Helsinki",
+   "country": "Finland",
+   "published": true,
+   "industries": [
+    "air_quality",
+    "construction_and_real_estate"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5733636452122624",
+   "name": "Futuretournaments Oy / Ultrahack",
+   "shortDescription": "International innovation contests and hackathons",
+   "description": "Ultrahack’s mission is to provide an outstanding community experience to solve humanity's greatest challenges and foster the most innovative technological advances. Ultrahack is a tool for open innovation serving all industries. Ultrahack attracts thousands of experts and dozens of growth companies every year. Ultrahack has implemented hackathons with +100 companies including Asian Development Bank, United Nations (UN), NASA, ESA, CGI, SAP, IBM, Nokia, Microsoft and Nordea.",
+   "founded": "2013-05-01T00:00:00.000Z",
+   "website": "http://www.ultrahack.org",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5187247892594688",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/P7FaZ3uox5ZuWduEKfdVGneVFhzbSGluKaXpdhWkxCAjNI2EQmsl_1Jlr5BwLWurIdeozD1hF67wfFn57mfoyOIUhvM5RbM0z1Q0",
+    "fileName": "Ultrahack-logo.jpg"
+   },
+   "published": true,
+   "industries": [
+    "aerospace_and_defence",
+    "education",
+    "Diagnostics",
+    "automotive_and_transportation",
+    "logistics",
+    "social_entrepreneurship",
+    "waste_and_recycling",
+    "cryptocurrencies",
+    "retail",
+    "water_and_wastewater",
+    "Design",
+    "hospitality_and_travel",
+    "materials_and_coatings",
+    "manufacturing",
+    "e-commerce",
+    "energy",
+    "entertainment_and_media",
+    "agribusiness_and_farming",
+    "construction_and_real_estate",
+    "digital_health",
+    "sports",
+    "on-demand_services",
+    "impact",
+    "consumer_electronics",
+    "health",
+    "air_quality",
+    "marketing_and_communication",
+    "pharmaceuticals",
+    "cybersecurity",
+    "financial_and_insurance",
+    "nutrition_food_beverages_supplements",
+    "medtech",
+    "travel",
+    "forestry",
+    "biotech"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5737442330017792",
+   "name": "VimAI Oy",
+   "shortDescription": "Augmented Reality/indoor positioning",
+   "description": "VimAI provides wide area AR navigation and ubiquitous multi-user AR. The basis of the solution is positioning that is based on image recognition and makes thus location-based AR possible . With VimAI buildings can be converted to augmented spaces filled with virtual things all around. Our key customer segments are process industries, shopping malls and building maintenance companies. Also different public buildings, like museums and opera have been interested in our offering.",
+   "founded": "2017-05-01T00:00:00.000Z",
+   "website": "http://vim.ai",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5664488955052032",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/ADNFc52uh4iWyyuwH3aaTMV_vhQyWb35m9FDhMTJNBsVJcMIVcKjXvOzl0K6lZ4lfZyu8rMBE3uDhVQJmuQYpE9lQbA6C7eTnx-d",
+    "fileName": "VimAI_Logo_v3.png"
+   },
+   "published": true,
+   "industries": [
+    "entertainment_and_media",
+    "gaming",
+    "construction_and_real_estate",
+    "manufacturing",
+    "marketing_and_communication",
+    "retail",
+    "energy"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5742796208078848",
+   "name": "Ambronite Oy",
+   "shortDescription": "Food & Beverages, E-commerce",
+   "description": "Our mission at Ambronite is to help urban professionals to thrive and live life to the fullest with healthy food products.\nComplete Meal Shake, our first product, contains 100% of everything your body needs and quenches hunger. Next year, we are expanding our product lines.\nAmbronite has customers in over 30 countries and has been covered by e.g. TIME Magazine, Wired, Wallpaper and Business Insider.\nWe are venture backed by investors such as Jawed Karim (YouTube co-founder) and Lifeline Ventures",
+   "founded": "2013-10-01T00:00:00.000Z",
+   "website": "http://ambronite.com",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "5673261526417408",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/OCRof3UksoQTjlocI5hmCdJ9NbEIez7VZck04jyk4jR4dP4m_p4hE3-Acas7Af9HT89OukzWs_Sq_AdZhFfeTbgqy245AePwrgVKUQ",
+    "fileName": "ambronite.jpg"
+   },
+   "published": true,
+   "industries": [
+    "nutrition_food_beverages_supplements",
+    "e-commerce",
+    "agribusiness_and_farming"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5746985747349504",
+   "name": "RoadCloud Oy",
+   "shortDescription": "Enabling self-driving cars",
+   "description": "Providing road information that matters - way ahead\nWith dedicated hardware installed into carefully selected fleets of vehicles, we collect data that matters. The data is refined into information products providing unique opportunities for our customers and fleet partners.Working on autonomous driving, road maintenance or traffic information systems? See how you can benefit from our services!",
+   "founded": "2014-08-01T00:00:00.000Z",
+   "website": "https://roadcloud.fi/",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5743661174226944",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/DClujHVgpJ_vkWQmpBeeEu8v0uASGpDZUV08rbTABzu1e6YkmdvPPZHcrnw6g8ubIU2_S8BlmowYwzRKLkJqIC8Zt0Tk7qSvu4k",
+    "fileName": "roadcloud.jpg"
+   },
+   "published": true,
+   "industries": [
+    "automotive_and_transportation"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5813999014772736",
+   "name": "Celltrum Oy",
+   "shortDescription": "Telecommunications, IT",
+   "description": "Netradar is a mobile analytics company with the mission to enable high-quality connectivity. We provide decision-making solutions for the mobile industry based on real-time data gathered worldwide.",
+   "founded": "2017-09-01T00:00:00.000Z",
+   "website": "http://www.netradar.com/",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "6280944671522816",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/bN3gyoWgxLmmK1AR-5xC4R9mlnsuBwK2EotyCEgiz5pkhZS-t0BSPg3BFHpCRDOAFGKYOVOdVdhATQPtRJNBYP8Nm9CjbGeKtXo",
+    "fileName": "Netradar Logo.gif"
+   },
+   "published": true,
+   "industries": [
+    "entertainment_and_media",
+    "hospitality_and_travel",
+    "aerospace_and_defence",
+    "gaming",
+    "Diagnostics",
+    "automotive_and_transportation",
+    "consumer_electronics",
+    "marketing_and_communication"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5855053231423488",
+   "name": "Lukoton Experience Oy",
+   "shortDescription": "Replaces keychains with your mobile phone as a key",
+   "description": "Lukoton replaces mechanical keys and access tags with the one thing people always have with them: the mobile phone. Access is controlled by Lukoton Key Cloud and existing lock bodies upgraded with easy to install lock adapters. Our target users are professionals that need to carry or pick up and return hundreds of keys to get their job done. Stanley Security has invested in us and we are doing projects together but we are looking for 1-2 MEUR investment to speed up our development and growth.",
+   "founded": "2014-12-01T00:00:00.000Z",
+   "website": "http://www.lukoton.net",
+   "city": "Vantaa",
+   "country": "Finland",
+   "logo": {
+    "id": "4805833858744320",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/SxroHw3zdOLRq7jm3X1FqPBBEFJ7O-W44Oi4AKNH2ytDSM2z_r5QrHfzzgDEJMsbIgfwTuAHK_dD_uy9VLDNOh5Br2sDbJg0Z7lB",
+    "fileName": "2016_Lukoton_Logo_Vaaka_RGB.png"
+   },
+   "published": true,
+   "industries": [
+    "hospitality_and_travel",
+    "e-commerce",
+    "construction_and_real_estate",
+    "877a9c3d-b530-4707-930e-69f4bb53a6f2",
+    "automotive_and_transportation"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5882668059197440",
+   "name": "Fuusio Labs",
+   "shortDescription": "Fuusio cloud is content publishing platform for 3D",
+   "description": "Fuusio cloud is content publishing platform for the 3D world. It bridges the gap between the 3D / 360 content you have and the channels of distribution, including web, apps, e-commerce and social media. Everything behind an easy user interface that anyone can use. If you have CAD models, 3D or 360 content and are looking for easy ways to share and deploy, then this one is for you.",
+   "founded": "2017-04-01T00:00:00.000Z",
+   "website": "http://www.fuusiolabs.com",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "5974223608610816",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/rM5lYwTS4GcO-nXpt0pBipa-ujXcby2X1ElD1V2Uo-BAcmVqJbzFb86j4zYRIGQBYwdgRyoDRSOwMcUoSvfdrn583WanBYvPTHA",
+    "fileName": "FUUSIO1.png"
+   },
+   "published": true,
+   "industries": [
+    "e-commerce",
+    "marketing_and_communication"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5939298679390208",
+   "name": "DeskMe",
+   "shortDescription": "DeskMe enhances your office experience",
+   "description": "DeskMe brings a much-needed efficiency to the office industry by establishing a natural out-of-your-way booking experience on a 3D office map, engaging internally-designed IoT hardware and connecting to the network of public co-working offices to flexibly scale your office needs! It is a unique concept that has already been validated by real paying Customers!",
+   "founded": "2017-08-01T00:00:00.000Z",
+   "website": "https://deskme.com",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "5319718105776128",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/Kt3seXNwFR0N3DJ491InuMmA63VqVdvlVaozg0sHHpIyJhhi-RgJ2OcHSEFqH5EdhlsObYLP8vO3ixolltW1gjwphaR6pL1gNUk",
+    "fileName": "DeskMe-Pyramid.png"
+   },
+   "published": true,
+   "industries": [
+    "construction_and_real_estate",
+    "materials_and_coatings",
+    "on-demand_services",
+    "877a9c3d-b530-4707-930e-69f4bb53a6f2"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5949626398015488",
+   "name": "Salusfin Ltd",
+   "shortDescription": "Smart Living Company",
+   "description": "Salusfin provides means to track and manage living conditions: energy consumption, environmental  measures, security/safety and comfort level.\nFour key capabilities: \n* Controlling energy consumption, \n* Sensing environmental measures, \n* Metering/Reading consumption meters and \n* Reporting/integration",
+   "founded": "2013-04-01T00:00:00.000Z",
+   "website": "https://salusfin.com/",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5012102313934848",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/G1KesJI5-J-IbDn8wym7g8iNMZ0guEjZfqpjLN7xu58DR5cFLLaLewVwK6FObYsfuG6Ke4UWU_15W2mTBHu0Kvyi3iLNR4922q67",
+    "fileName": "SF_Smart_Living_Company-456x211_72dpi.png"
+   },
+   "published": true,
+   "industries": [
+    "construction_and_real_estate"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "5954736503128064",
+   "name": "CollectiveCrunch Oy",
+   "shortDescription": "Analytics",
+   "description": "CollectiveCrunch is a leader in AI for the forestry industry. We ‘collect’ technical, climate and geo data to ‘crunch’ this information for deeper insights and prediction. We predict wood mass and quality of forest inventories and bring a step-change to prediction accuracy.",
+   "founded": "2016-06-01T00:00:00.000Z",
+   "website": "http://collectivecrunch.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5126463837700096",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/K_FuRNV01LuA7B7icmemX7_ac8cr8rPxOkqepMhz5cL_dsx2WgQH9oZfAj-M0lqn9tTfeklz1NF5tdB6fsLMndt6ZsLdR3oadPpu",
+    "fileName": "CC full logo white copy.jpg"
+   },
+   "published": true,
+   "industries": [
+    "agribusiness_and_farming",
+    "Diagnostics",
+    "on-demand_services",
+    "forestry"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6017298775146496",
+   "name": "Forethink Oy",
+   "shortDescription": "UX design solution and AI personalization",
+   "description": "Create smart digital catalog! Optimizing the product feeds per individual shoppers, seamlessly while they browse the products. Metaphorically, we help online stores to build a conveyor belt sushi restaurant type of UX experience with AI chefs.",
+   "founded": "2018-07-01T00:00:00.000Z",
+   "website": "http://www.forethink.net",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "6553861858787328",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/9TtHs8aoVdgHdbZq8Cp1rZLWWAtilGSgKTjh6zGymtaGrG-IIm_Dsh2PVhUqGv3SlaufQTBp3LGURYDR312fm298V5nrrq0oapXr",
+    "fileName": "Forethink Logo_Burg@1x.jpg"
+   },
+   "published": true,
+   "industries": [
+    "Design",
+    "e-commerce",
+    "marketing_and_communication"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6081766234259456",
+   "name": "Katana Technologies",
+   "shortDescription": "IoT as-a-service",
+   "description": "We simplify the implementation and adoption of industrial IoT solutions for farming and agriculture",
+   "founded": "2018-11-01T00:00:00.000Z",
+   "website": "http://www.katanatech.io",
+   "city": "Espoo",
+   "country": "Finland",
+   "published": true,
+   "industries": [
+    "on-demand_services",
+    "agribusiness_and_farming"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6202224833200128",
+   "name": "Valo Motion Oy",
+   "shortDescription": "Sport, games and leisure",
+   "description": "Valo Motion creates exiting physical games that are beyond reality. Our games are fun sports entertainment that is perfect from kids to the gym beasts. We supercharge climbing with ValoClimb and create thrilling experiences on trampolines with ValoJump. We have successfully launched these two products to the global markets. Our happy customers in 45+ countries include activity parks, indoor playgrounds, climbing and fitness gyms for whom our products are a unique experience in a compact space.",
+   "founded": "2016-09-01T00:00:00.000Z",
+   "website": "http://valomotion.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5092316834430976",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/lELYM8asP4F5zn8bxPoQCDXwXLHYARF92dLo0J9F0qOProjfRP9A0bmAaYw-fS0ZMYrER_Q_4fiYMb6VbxFF4fCmwXRQkAot3Ifr",
+    "fileName": "Valo_Motion_Logo2_Color_On_White_Background.png"
+   },
+   "published": true,
+   "industries": [
+    "entertainment_and_media",
+    "gaming",
+    "education"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6219008491651072",
+   "name": "Privaon Oy",
+   "shortDescription": "Data protection",
+   "description": "We are a globally recognized specialist and software company in the fields of Privacy and Data Protection. We help our customers and provide solutions in the areas of Privacy Risk Management and Privacy Engineering. We provide our customers the tools for risk assessments and privacy management along with various consultation services.\n\nOur guiding principle “Privacy does not prevent cool things from happening” leads us in everything we do!",
+   "founded": "2014-11-01T00:00:00.000Z",
+   "website": "http://privaon.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5746670839005184",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/dCbZcJ18C41NprtPxlH9a_iksSF68HYnnDBorgXN67yjr48nl5rjmf0Fx989PBggrHyhzkkPDYn4i9cMNggGIGyOAUetifBMrgdk",
+    "fileName": "privaon-logo-black-blue.png"
+   },
+   "published": true,
+   "industries": [
+    "cybersecurity"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6224182887055360",
+   "name": "Deal Room Events Oy",
+   "shortDescription": "Event platform for networking",
+   "description": "Deal Room is a platform that gets people to meet for making deals. A meeting scheduling tool allowing participants to organise one to one meetings among themselves.\n",
+   "founded": "2018-02-01T00:00:00.000Z",
+   "website": "http://www.dealroomevents.com",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "6211775431180288",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/vGf78KMF9krSF-5-KSzfAK46qHb5s83tnpL7wO6otvM-mivtiqJC3kTG1BGhYVORcHkPprhwdNLejSq-CEXd-rWgWhPvGJfQRBN5",
+    "fileName": "Deal-Room-Logo-in-app-blue.png"
+   },
+   "published": true,
+   "industries": [
+    "hospitality_and_travel",
+    "e-commerce",
+    "marketing_and_communication",
+    "89590a2b-8d44-4d83-aaf9-3fad0b5ff06f",
+    "impact"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6253094962724864",
+   "name": "Girdit Oy",
+   "shortDescription": "GIRDIT offers UAS operations as a service ",
+   "description": "Girdit provides industrial scale UAS operations as a service to its customers.  \nServices include:  \n* Surveying: topographical, geophysical  \n* Surveillance: search & rescue, border control  \n* Telecommunications: Satellite like service with increased mobility",
+   "founded": "2016-04-01T00:00:00.000Z",
+   "website": "http://www.girdit.com/",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "6279111660011520",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/pJGFviD-7x7wlJIktNHu3dmSFvbXmhAK0nzWNVc7V_0rHQ7temGIudPZvsQMx19Mib35aTlOFMrV6246lCHA0qaWJ0UFSobZX8Wg",
+    "fileName": "girdit_logo_flat.png"
+   },
+   "published": true,
+   "industries": [
+    "automotive_and_transportation"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6253715082182656",
+   "name": "ViiBE",
+   "shortDescription": "The technology of visioassistance without download",
+   "description": "ViiBE helps industrial technical support and after sales services operate the best remote diagnosis, reduce experts' displacements, optimize first contact resolution rates and improve technicians and customers' satisfaction through a remote assistance experience.\nOur Web application enables experts to see incidents in real time through the back camera of the interlocutor's smartphone, snap and share images or any document, draw on them, guide with augmented reality features and much more.",
+   "founded": "2018-11-01T00:00:00.000Z",
+   "website": "http://viibe.co",
+   "city": "Paris",
+   "country": "France",
+   "logo": {
+    "id": "5764529581457408",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/vhhEdZrPdcP9-jGHNNGvM7cU77nrnBrge7rbV0-mMPUPEpIyk2M_sZo3l1nDMj7ulWyp8b7L_D_FhKis3UwDYkd1vbWXoqSKTzS6",
+    "fileName": "logo_ViiBE.png"
+   },
+   "published": true,
+   "industries": [
+    "on-demand_services"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6258109873913856",
+   "name": "everynet",
+   "shortDescription": "Internet of Things",
+   "description": "Everynet is a leading Low Power Wide Area (LPWA) technology network operator with access to networks around the globe including the Americas, EMEA, and APAC.",
+   "founded": "2017-06-01T00:00:00.000Z",
+   "website": "https://everynet.com/",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "4831648155697152",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/PksRNcMfDcUJqwbgwh7Zm6sLC4sej7-GXPq20uZLmXx5voakWSRHrxm_bthwssuTPXQyAhpeT6PaoeXa-60R3N85G1_tHdGLAMmMHw",
+    "fileName": "everynet_colorx2.png"
+   },
+   "published": true,
+   "industries": [
+    "marketing_and_communication"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6268037187502080",
+   "name": "Puheet.com",
+   "shortDescription": "True. Good. Useful. Make sense of behavior",
+   "description": "To make optimal business decisions, one must understand customer needs, wants and desires. Invite your stakeholders to co-create and utilize all other textual feedback. \nOur solution has tools to build and manage an online community, create surveys, maintain discussions, and to present ideas with images, videos, and text. \nYou get state-of-the-art analytics, insights, nice visuals and best of the breed natural language processing tools.\nAn example application is cutting customer churn by 50%.",
+   "founded": "2010-05-01T00:00:00.000Z",
+   "website": "https://www.puheet.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "6249018099236864",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/Q2ZyCQgTjIKxzDJ-F1uRNQsnlLU_wCqyefXSuveQ1bXfy9PqUYcXP7h5mlrHhVC1KQ6tloRGTCBB0x9dT3fkv2eMsWio-RZVoSw",
+    "fileName": "Logo - puheet.com - turquoise on transparent.png"
+   },
+   "published": true,
+   "industries": [
+    "Design",
+    "6f086252-72eb-445c-b155-a584245caa01",
+    "entertainment_and_media",
+    "financial_and_insurance",
+    "marketing_and_communication",
+    "retail"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6284668475277312",
+   "name": "Bald & Grey Hair",
+   "shortDescription": "Fintech",
+   "description": "We automate asset trading with AI.\n\nThis is how we can adapt to market changes efficiently and accordingly. Managing an automated portfolio of validated strategies helps us to avoid human biases and achieve more sustainable and reliable returns.\n\nWe are a team of aspiring financial engineers and statisticians with a courageous mindset. Our vision is to combine the power of algorithms and state of the art statistical innovation with financial markets.",
+   "founded": "2018-07-01T00:00:00.000Z",
+   "website": "http://baldandgreyhair.com",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "5322609558290432",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/3pN_TpCPfN6m3rL2rZ7Y3kNFcJti7eky3R6OG7VhWlyh2hu2iIhdM5NBLs9Wpp53GS8ssuadQg3DSS7eI-2QTNGt8ep2EP0yZXY",
+    "fileName": "bgh_blacktext.png"
+   },
+   "published": true,
+   "industries": [
+    "financial_and_insurance"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6285020595486720",
+   "name": "Work Pilots Oy",
+   "shortDescription": "WorkPilots, mobile on-demand job matching platform",
+   "description": "WorkPilots is a unique mobile-first service that connects young people in need of work with households, companies and organizations which can utilize youth to handle their seasonal, on-demand and sporadic tasks (so-called gigs). WorkPilots approach is building social impact. Organizations can easily find motivated workers at a fair price, young people gain access into the workplace, and at the same time, a positive social impact to combat youth unemployment is created. \n",
+   "founded": "2015-10-01T00:00:00.000Z",
+   "website": "http://www.workpilots.fi",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "6006029317832704",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/opA_pS6cnn72rVDmFVIwv-Xcagtq9aDOsrK7n3SIAGDArKKINrluensKTafSKoSbYf5UiJGK4pHoM-kEZzokUkuZsHJV0Ua6iM6j",
+    "fileName": "WP_logo.jpg"
+   },
+   "published": true,
+   "industries": [
+    "logistics",
+    "hr",
+    "on-demand_services",
+    "impact"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6294518445899776",
+   "name": "Mobile Wellness Solutions MWS Oy",
+   "shortDescription": "Software, Health & Wellness",
+   "description": "Wellmo is a b2b SaaS company driving the preventive digital health megatrend in insurance business and other selected segments. Our solution is a content agnostic platform enabling branded and differentiated health app leveraging local health content and services. This platform & ecosystem approach is gaining increasing traction on the market. Wellmo has paying customers in 5 European countries and is on a solid growth track at close to 100% p.a. for the third year.",
+   "founded": "2012-10-01T00:00:00.000Z",
+   "website": "http://wellmo.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "5698529657880576",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/ycIeQBJ_l1HLXv0l_wkuqgHFQ3LC092VfeZvc7uZtljoK_ayNDNowg6W6-jAWvEdKTA3zd3VV2A_nrB-Q43AfrKY6_6DKkKu0Io",
+    "fileName": "Wellmo_logo1.png"
+   },
+   "published": true,
+   "industries": [
+    "medtech",
+    "digital_health",
+    "sports",
+    "on-demand_services"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6332279798366208",
+   "name": "Funzilife Oy",
+   "shortDescription": "Mobile service, Education",
+   "description": "Funzi is an award-winning mobile service from Finland that delivers learning and training to everyone, everywhere.\n\nFunzi’s mission is to provide everyone access to quality learning cost effectively, and to deliver the best learning experience on mobile - with little or no cost to the end-user.",
+   "founded": "2014-02-01T00:00:00.000Z",
+   "website": "http://funzi.fi",
+   "city": "Espoo",
+   "country": "Finland",
+   "logo": {
+    "id": "6227852634619904",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/1_ToplzmYE6xgc7hcIFrFVLnTvYEuJwbRVDCyIyvyBe-6FOfF5wm21Z2Or-MEG63ghIA9APQySbxruzsXodiiyjZBDvRlJqfZ-mFIA",
+    "fileName": "funzi-logo-900px.png"
+   },
+   "published": true,
+   "industries": [
+    "education"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6494683719008256",
+   "name": "Helpten Oy",
+   "shortDescription": "Car as a service digital platform provider",
+   "description": "Provider of  CaaS digital platform for car dealers and fleet management companies with Saas Business model. Enabling bundling of car financing, parking, fuel, car wash, easy communication with IoT data from cars and integration to ecosystem partners. Car and related service is sold as a one monthly fee. In Finland we are having as our customers and partners big car dealers, Santander, Lähitapiola, Elisa, ABC, Falck. 2019 we aim to expand to  countries in Europe. We seek funding for expansion",
+   "founded": "2007-10-01T00:00:00.000Z",
+   "website": "http://www.helpten.com",
+   "city": "Espoo",
+   "country": "Finland",
+   "published": true,
+   "industries": [
+    "automotive_and_transportation"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6551358027071488",
+   "name": "Mapple Analytics Oy",
+   "shortDescription": "AI powered location intelligence software",
+   "description": "Mapple provides an AI powered location intelligence software to help cities and real estate companies better understand the area they are developing. By applying insights on people, infrastructure and mobility they can evaluate current situation and forecast the impact of their investment. Our team is made of GIS experts, data scientists and growth hackers. We are currently looking for partners, new customers and first seed investment. ",
+   "founded": "2018-06-01T00:00:00.000Z",
+   "website": "http://mapple.io",
+   "city": "Helsinki",
+   "country": "Finland",
+   "logo": {
+    "id": "5135967023267840",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/GGIRttiPm_2xUKpcZzAhtkvWwQjko9yab122pgaQObJu-Cj-YWU7Lfr5K1E4Wx7XZCcdT0ygTiNrByQywjq6-Fhxk_DihkRB3kR1",
+    "fileName": "logo100x100.png"
+   },
+   "published": true,
+   "industries": [
+    "air_quality",
+    "construction_and_real_estate",
+    "automotive_and_transportation",
+    "impact"
+   ]
+  },
+  {
+   "type": "startup",
+   "id": "6555031163633664",
+   "name": "Solar Water Solutions Oy",
+   "shortDescription": "MAKE DRINKING WATER WITH  ZERO EMISSIONS",
+   "description": "We run on solar, we run off-grid.\nWe run on solar, no diesel needed.\nWe run on solar, sunshine doesn't cost a penny.\nMake drinking water with zero emissions. Revolutionary SolarRO-system helps you to produce safe and affordable water locally in remote locations. You'll avoid the transport of water and bottled water. Potable water can be made directly from seawater, lakes, rivers, ponds or boreholes.\nThe products are mobile and scalable to suit your capacity requirements. Powered fully by solar. ",
+   "founded": "2015-05-01T00:00:00.000Z",
+   "website": "https://solarwatersolutions.fi/",
+   "city": "Espoo Finland",
+   "country": "Finland",
+   "logo": {
+    "id": "4665096370388992",
+    "imageServiceUrl": "https://lh3.googleusercontent.com/gEWWMrlfbIBfs0Jyyisxg8mkdKKDcODoB0P6ycgWeYGK8WZrrf20MJp5ACmQQPA7VzVWwMe8csjP1B0grs2z11cVJ3qzWRHgn3ax",
+    "fileName": "SWS-Logo kopio.jpg"
+   },
+   "published": true,
+   "industries": [
+    "water_and_wastewater"
+   ]
+  }
+ ]
+}
