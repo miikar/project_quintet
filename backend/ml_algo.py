@@ -2,11 +2,24 @@ import numpy as np
 import pandas as pd
 import sklearn
 
+import pymongo
+
+from pymongo import MongoClient
 from sklearn.feature_extraction.text import TfidfVectorizer
 # from surprise import 
 
 
 def main():
+
+    client = MongoClient('mongodb://localhost:27017/')
+    db = client['test']
+    collection = db['profileschemas']
+
+    cursor = collection.find({})
+
+    for doc in cursor:
+        print(doc)
+
 
     corpus = [
         'This is the first document.',
