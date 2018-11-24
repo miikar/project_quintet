@@ -52,7 +52,7 @@ def main():
     print(cosine_similarities.shape)
     print(cosine_similarities)
 
-    print('recommendations:%s' % (ids))
+    print('recommendations:%s' % ([y[i] for i in ids]))
 
     #print(desc_data)
 

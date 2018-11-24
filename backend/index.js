@@ -48,9 +48,20 @@ app
       console.log('ERROR FROM PYTHON', err.toString());
     });
 
-    py.stdout.on('end', function() {
-      console.log('data', dataString);
-      return res.send(dataString);
+    py.stdout.on('end', async () => {
+      const test = dataString
+        .split('recommendations:')[1]
+        .trim()
+        .replace(/'/g, '"');
+      const parsed = JSON.parse(test);
+      console.log('Recommended ids', parsed);
+
+      const recommendedProfiles = await Promise.all(
+        parsed.map(id => {
+          return ProfileSchema.findOne({ _id: id }).exec();
+        })
+      );
+      return res.send(recommendedProfiles);
     });
     py.stdin.write(JSON.stringify(data));
 
