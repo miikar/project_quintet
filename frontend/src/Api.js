@@ -9,6 +9,12 @@ export const getProfiles = async () => {
   return profiles.data;
 };
 
+export const getSimilarProfiles = async (profileId) => {
+  const profiles = await axios.get(url + '/profiles/' + profileId + '/similar');
+  if (!profiles || !profiles.data) return [];
+  return profiles.data;
+};
+
 export const getVideoUrl = video => url + video.path;
 
 export const uploadVideo = async (profile, file) => {
@@ -24,5 +30,11 @@ export const uploadVideo = async (profile, file) => {
   };
   const response = await axios.post(`${url}/upload`, form);
   console.log('Profile created', response.data);
+  return response.data;
+};
+
+export const createProfile = async profile => {
+  const response = await axios.post(`${url}/profiles`, profile);
+  console.log('profile created', response.body);
   return response.data;
 };

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { getProfiles } from '../Api';
+import { getProfiles, getSimilarProfiles } from '../Api';
 import ListItem from './ListItem';
 import VisibilitySensor from 'react-visibility-sensor';
 
@@ -11,7 +11,7 @@ const shuffle = array => {
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
     // Pick a remaining element...
-    // randomIndex = 1;
+    // randomIndex = 0;
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
 
@@ -30,10 +30,11 @@ class ListView extends Component {
   };
 
   componentDidMount = async () => {
-    const profiles = await getProfiles();
-    console.log(profiles);
+    if (!this.props.profileId) this.props.history.push('/login');
+    const profileToCompare = this.props.profileId;
+    const profiles = await getSimilarProfiles(profileToCompare);
     this.setState({
-      profiles: shuffle(profiles)
+      profiles
     });
   };
 

@@ -9,6 +9,7 @@ import Nav from './Nav';
 
 class App extends Component {
   state = {
+    profileId: '',
     currentProfile: 0,
     highestIndex: 0,
     newMessages: 0,
@@ -24,10 +25,15 @@ class App extends Component {
       })
     }
   };
+  setProfileId = (id, history) => {
+    this.setState({
+      profileId: id
+    })
+    history.push('/')
+  }
 
   render() {
-    const {currentProfile, newMessages, newProfiles} = this.state;
-    const x = this.toggleProfile;
+    const {currentProfile, newMessages, newProfiles, profileId} = this.state;
 
     return (
       <Router>
@@ -36,10 +42,16 @@ class App extends Component {
           <div className="content">
             <Route 
               exact path="/" 
-              render={() => 
-                <ListView toggleProfile={this.toggleProfile} />
+              render={({history}) => 
+                <ListView toggleProfile={this.toggleProfile} profileId={profileId} history={history} />
+              } />
+            <Route 
+              exact path="/login" 
+              render={({ history }) => 
+                <Login setProfileId={(id) => {
+                  this.setProfileId(id, history);
+                }} />
             } />
-            <Route exact path="/login" component={Login} />
             <Link to="/list">
               <button>PitchIt!</button>
             </Link>
