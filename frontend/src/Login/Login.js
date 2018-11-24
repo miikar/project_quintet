@@ -26,12 +26,12 @@ class Login extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="login-view">
         <h2>Select your profile</h2>
         <div>
-          <button className={this.state.profileType === 'startup' ? "btn btn-primary profile-button": "btn profile-button"} onClick={() => this.setState({profileType: 'startup'})}>Startup</button>
-          <button className={this.state.profileType === 'investor' ? "btn btn-primary profile-button": "btn profile-button"} onClick={() => this.setState({profileType: 'investor'})}>Investor</button>
-          <button className={this.state.profileType === 'company' ? "btn btn-primary profile-button": "btn profile-button"} onClick={() => this.setState({profileType: 'company'})}>Company</button>
+          <button className={this.state.profileType === 'startup' ? "btn btn-primary login-button": "btn profile-button"} onClick={() => this.setState({profileType: 'startup'})}>Startup</button>
+          <button className={this.state.profileType === 'investor' ? "btn btn-primary login-button": "btn profile-button"} onClick={() => this.setState({profileType: 'investor'})}>Investor</button>
+          <button className={this.state.profileType === 'company' ? "btn btn-primary login-button": "btn profile-button"} onClick={() => this.setState({profileType: 'company'})}>Company</button>
         </div>
         <div >
           <label>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Player } from 'video-react';
+import { Link } from 'react-router-dom';
 import '../../node_modules/video-react/dist/video-react.css';
 import { getVideoUrl } from '../Api';
-import Chat from './Chat';
 
 const defaultLogoUrl = 'logo-placeholder.jpg';
 const video = {
@@ -10,9 +10,6 @@ const video = {
 }
 
 class ListItem extends Component {
-  state = {
-    toggleChat: false,
-  }
 
   displayChat = () => {
     console.log('toggle chat!')
@@ -23,7 +20,6 @@ class ListItem extends Component {
     const { profile } = this.props;
     const { launchpadData = {}, description } = profile;
     const { type, city, country, shortDescription, logo = {} } = launchpadData;
-    const {toggleChat} = this.state;
 
     return (
       <div className="profile-container">
@@ -52,10 +48,10 @@ class ListItem extends Component {
             </p>
             <p>{shortDescription}</p>
           </div>
-          <div className="profile-button-container">
-            <button className="profile-button" onClick={this.displayChat}>
+          <div className="profile-button">
+            <Link to="/chat" >
               Say hello to {profile.name}!
-            </button>
+            </Link>
           </div>
         </div>
       </div>

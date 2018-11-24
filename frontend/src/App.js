@@ -6,6 +6,7 @@ import openSocket from 'socket.io-client';
 import './bootstrap/bootstrap.css';
 import './App.css';
 import Nav from './Nav';
+import Chat from './Chat';
 
 class App extends Component {
   state = {
@@ -40,9 +41,7 @@ class App extends Component {
                 <ListView toggleProfile={this.toggleProfile} />
             } />
             <Route exact path="/login" component={Login} />
-            <Link to="/list">
-              <button>PitchIt!</button>
-            </Link>
+            <Route exact path="/chat" component={Chat} />
           </div>
         </div>
       </Router>
