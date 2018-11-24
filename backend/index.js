@@ -1,7 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const multer = require('multer');
+const mkdirp = require('mkdirp');
 const cors = require('cors');
+const path = require('path');
+
 const { ProfileSchema } = require('./schema');
 mongoose.connect('mongodb://localhost/test');
 
@@ -61,6 +65,38 @@ app
     const writeProfile = await ProfileSchema.create(req.body);
     return res.json(writeProfile);
   });
+
+// UPLOAD ROUTES
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    const profileId = req.params.id;
+    mkdirp('uploads/' + profileId + '/', err => {
+      if (err) console.log('mkdirp err', err);
+      return cb(null, 'uploads/' + profileId + '/');
+    });
+  },
+  filename: function(req, file, cb) {
+    console.log('file', file);
+    const filename = path.normalize(file.originalname);
+    cb(null, filename);
+  }
+});
+
+const upload = multer({ storage });
+app.post(
+  '/profiles/:id/upload',
+  upload.single('video'),
+  async (req, res, next) => {
+    console.log('req file ', req.file);
+    const videoPath = '/' + req.file.path;
+    const updatedProfile = await ProfileSchema.findOneAndUpdate(
+      { _id: req.params.id },
+      { video: { path: videoPath } },
+      { new: true }
+    );
+    res.json(updatedProfile);
+  }
+);
 
 app.get('/test', (req, res, next) => {
   // From https://www.sohamkamani.com/blog/2015/08/21/python-nodejs-comm/
