@@ -1,3 +1,7 @@
+body {
+  background-color: #2e2e2e;
+}
+
 .App {
   text-align: center;
   box-sizing: border-box;
@@ -141,10 +145,31 @@ header * {
   outline: none!important;
 }
 
-.profile-button {
+.profile-button.a{
+  color: white;
+}
+
+.login-button {
+  box-shadow:none!important;
   margin: 5px;
 }
 
-.login-view {
+.login-form {
   color: white;
+  margin: 30px;
+  font-size: 20px;
+  text-align: left;
+
+}
+
+.login-form form {
+  text-align: left;
+}
+
+.login-form div {
+  margin-bottom: 20px;
+}
+
+.submitzone div {
+  margin: 0 auto!important;
 }

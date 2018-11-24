@@ -48,11 +48,11 @@ class ListItem extends Component {
             </p>
             <p>{shortDescription}</p>
           </div>
-          <div className="profile-button">
-            <Link to="/chat" >
+          <Link to='/chat' className="profile-button-container">
+            <button className="profile-button">
               Say hello to {profile.name}!
-            </Link>
-          </div>
+            </button>
+          </Link>
         </div>
       </div>
     );
