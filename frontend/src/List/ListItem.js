@@ -52,9 +52,9 @@ class ListItem extends Component {
             </p>
             <p>{shortDescription}</p>
           </div>
-          <div className="profile-button">
-            <button onClick={this.displayChat}>
-              {shortDescription}
+          <div className="profile-button-container">
+            <button className="profile-button" onClick={this.displayChat}>
+              Say hello to {profile.name}!
             </button>
           </div>
         </div>
