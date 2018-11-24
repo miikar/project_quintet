@@ -8,6 +8,7 @@ const profileSchema = new mongoose.Schema({
     default: 'startup'
   },
   industries: [String],
+  technologies: [String],
   video: { path: String },
 
   launchpadData: mongoose.Schema.Types.Mixed
