@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const url = 'http://cloud.kurkinen.me:3001';
-// const url = 'http://localhost:3001';
+// export const url = 'http://localhost:3001';
 
 export const getProfiles = async () => {
   const profiles = await axios.get(url + '/profiles');

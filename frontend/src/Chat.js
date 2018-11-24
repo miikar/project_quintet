@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import { url } from './Api';
 
 import io from 'socket.io-client';
 
 class Chat extends Component {
-  socket = io('http://cloud.kurkinen.me:3001');
+  socket = io(url);
 
   state = {
     message: '',
@@ -11,7 +12,7 @@ class Chat extends Component {
   }
 
   componentDidMount() {
-    this.socket.on('message', this.handleMessage);
+    this.socket.on('message', this.handleNewMessage);
   }
 
   handleNewMessage = (message) => {
