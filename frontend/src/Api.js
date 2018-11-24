@@ -8,3 +8,5 @@ export const getProfiles = async () => {
   if (!profiles || !profiles.data) return [];
   return profiles.data;
 };
+
+export const getVideoUrl = video => url + video.path;

@@ -59,6 +59,22 @@ header * {
   align-items: stretch;
 }
 
+.video-react .video-react-poster {
+  background-color: white;
+}
+
+.video-react {
+  background-color: white!important;
+}
+
+.video-react .video-react-big-play-button {
+  top: initial;
+  left: initial;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(47, 69, 142, 0.38);
+}
+
 .profile-text {
   background-color: #ff5162;
   padding: 12px;
