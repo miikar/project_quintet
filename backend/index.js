@@ -25,7 +25,8 @@ const port = 3001;
 app.use('/uploads', express.static('uploads'));
 
 app.use(cors());
-app.use(bodyParser());
+// app.use(bodyParser.json({ limit: 10000 * 1024 }));
+// app.use(bodyParser.urlencoded({ extended: false }));
 
 // ROUTES
 app
@@ -72,7 +73,7 @@ app
     py.stdin.end();
   })
 
-  .patch('/profiles/:id', async (req, res, next) => {
+  .patch('/profiles/:id', bodyParser.json(), async (req, res, next) => {
     const updatedProfile = await ProfileSchema.findOneAndUpdate(
       { _id: req.params.id },
       req.body,
@@ -80,7 +81,7 @@ app
     ).exec();
     return res.json(updatedProfile);
   })
-  .post('/profiles', async (req, res, next) => {
+  .post('/profiles', bodyParser.json(), async (req, res, next) => {
     const writeProfile = await ProfileSchema.create(req.body);
     return res.json(writeProfile);
   });
@@ -88,8 +89,10 @@ app
 // UPLOAD ROUTES
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
+    console.log('dest');
     const profileId = ObjectId();
     file.profileId = profileId;
+    console.log('next mkdir', 'uploads/' + profileId + '/');
     mkdirp('uploads/' + profileId + '/', err => {
       if (err) console.log('mkdirp err', err);
       return cb(null, 'uploads/' + profileId + '/');
@@ -117,17 +120,26 @@ app.post(
 );
 
 app.post('/upload', upload.single('video'), async (req, res, next) => {
-  const videoPath = '/' + req.file.path;
-  const rProfile = JSON.parse(req.body.profile);
-  const profile = {
-    _id: req.file.profileId,
-    video: {
-      path: req.file.path
-    },
-    ...rProfile
-  };
-  const writeProfile = await ProfileSchema.create(profile);
-  return res.json(writeProfile);
+  try {
+    console.log('Video upload completed', req.file.path);
+    const videoPath = '/' + req.file.path;
+    const rProfile = JSON.parse(req.body.profile);
+    const profile = {
+      _id: req.file.profileId,
+      video: {
+        path: req.file.path
+      },
+      ...rProfile
+    };
+    console.log('write to db');
+    const writeProfile = await ProfileSchema.create(profile);
+    console.log('written to db');
+    return res.json(writeProfile);
+  } catch (ex) {
+    console.log('video upload err', ex);
+    return res.status(500).json(ex);
+  }
+
 });
 
 app.get('/test', (req, res, next) => {
