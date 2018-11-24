@@ -25,7 +25,7 @@ const port = 3001;
 app.use('/uploads', express.static('uploads'));
 
 app.use(cors());
-app.use(bodyParser());
+// app.use(bodyParser());
 
 // ROUTES
 app
