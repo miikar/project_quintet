@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { getProfiles } from '../Api';
 import ListItem from './ListItem';
+import VisibilitySensor from 'react-visibility-sensor';
 
 const shuffle = array => {
   var currentIndex = array.length,
@@ -35,13 +36,34 @@ class ListView extends Component {
       profiles: shuffle(profiles)
     });
   };
+
+  handleVisibility = (profile, index) => (isVisible) => {
+    const { toggleProfile } = this.props;
+    if (isVisible) {
+      toggleProfile(index, profile.id);
+    }
+  }
+
   render() {
     const { profiles = [] } = this.state;
+    const { toggleProfile } = this.props;
 
     return (
       <div className="profile-list">
-        {profiles.map(profile => (
-          <ListItem key={profile._id} profile={profile} />
+        {profiles.map((profile, index) => (
+          <VisibilitySensor 
+            onChange={this.handleVisibility(profile,index)}
+            partialVisibility={true}
+            intervalDelay={50}
+            scrollDelay={100}
+            >
+            <ListItem 
+              key={profile._id} 
+              index={index}
+              profile={profile} 
+              toggleProfile={toggleProfile}
+            />
+          </VisibilitySensor >
         ))}
       </div>
     );

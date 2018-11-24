@@ -23,12 +23,36 @@ header * {
   border-color: rgb(232, 232, 232)!important;
 }
 
-.navbar > .container, .navbar > .container-fluid {
+/* .navbar > .container, .navbar > .container-fluid {
   justify-content: center!important;
-}
+} */
 
 .navbar-brand {
   font-size: 1.65rem;
+}
+
+.main-logo {
+  height: 35px;
+  color: white;
+}
+
+
+.newMessages {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 22px;
+}
+
+.newProfiles {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 22px;
 }
 
 .content {
