@@ -117,17 +117,24 @@ app.post(
 );
 
 app.post('/upload', upload.single('video'), async (req, res, next) => {
-  const videoPath = '/' + req.file.path;
-  const rProfile = JSON.parse(req.body.profile);
-  const profile = {
-    _id: req.file.profileId,
-    video: {
-      path: req.file.path
-    },
-    ...rProfile
-  };
-  const writeProfile = await ProfileSchema.create(profile);
-  return res.json(writeProfile);
+  try {
+    console.log('Video upload completed', req.file.path);
+    const videoPath = '/' + req.file.path;
+    const rProfile = JSON.parse(req.body.profile);
+    const profile = {
+      _id: req.file.profileId,
+      video: {
+        path: req.file.path
+      },
+      ...rProfile
+    };
+    const writeProfile = await ProfileSchema.create(profile);
+    return res.json(writeProfile);
+  } catch (ex) {
+    console.log('video upload err', ex);
+    return res.status(500).json(ex);
+  }
+
 });
 
 app.get('/test', (req, res, next) => {
