@@ -141,3 +141,7 @@ header * {
   outline: none!important;
 }
 
+.profile-button {
+  box-shadow:none!important;
+  margin: 5px;
+}

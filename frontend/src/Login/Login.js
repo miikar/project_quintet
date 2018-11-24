@@ -27,24 +27,34 @@ class Login extends Component {
   render() {
     return (
       <div>
-        <h2>Login</h2>
-        <label>
-          Name:
+        <h2>Select your profile</h2>
+        <div>
+          <button className={this.state.profileType === 'startup' ? "btn btn-primary profile-button": "btn profile-button"} onClick={() => this.setState({profileType: 'startup'})}>Startup</button>
+          <button className={this.state.profileType === 'investor' ? "btn btn-primary profile-button": "btn profile-button"} onClick={() => this.setState({profileType: 'investor'})}>Investor</button>
+          <button className={this.state.profileType === 'company' ? "btn btn-primary profile-button": "btn profile-button"} onClick={() => this.setState({profileType: 'company'})}>Company</button>
+        </div>
+        <div >
+          <label>
+            Name:
+          </label>
           <input
             type="text"
             value={this.state.profileName}
             onChange={this.handleChangeName}
           />
-        </label>
+        </div>
         <label>
           Name:
-          <input
-            type="textarea"
-            value={this.state.profileDescription}
-            onChange={this.handleChangeDescription}
-          />
         </label>
-        <Dropzone onDrop={this.onDrop} accept="video/mp4,video/x-m4v,video/*" />
+        <input
+          type="textarea"
+          value={this.state.profileDescription}
+          onChange={this.handleChangeDescription}
+        />
+        <div>
+          { this.state.profileType === 'startup' && <Dropzone onDrop={this.onDrop} accept="video/mp4,video/x-m4v,video/*" />}
+          { this.state.profileType !== 'startup' && <button className="btn btn-primary" onClick={this.handeSubmit}>Create!</button>}
+        </div>
       </div>
     );
   }
