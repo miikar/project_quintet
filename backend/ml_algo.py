@@ -64,7 +64,7 @@ def main():
     vectorizer = TfidfVectorizer(stop_words='english')
     X = vectorizer.fit_transform(modified_doc)
     cosine_similarities = linear_kernel(X[query_id:query_id+1], X).flatten()
-    match_scores = cosine_similarities.argsort()[:-10:-1]
+    match_scores = cosine_similarities.argsort()[:-10:-1][1:]
     
     print(query_id)
     print(match_scores)
