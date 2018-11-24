@@ -24,9 +24,20 @@ app
     const profiles = await ProfileSchema.find({}).exec();
     return res.json(profiles);
   })
+  .get('/profiles/:id', async (req, res, next) => {
+    const profile = await ProfileSchema.findOne({ _id: req.params.id }).exec();
+    return res.json(profile);
+  })
+  .patch('/profiles/:id', async (req, res, next) => {
+    const updatedProfile = await ProfileSchema.findOneAndUpdate(
+      { _id: req.params.id },
+      req.body,
+      { new: true }
+    ).exec();
+    return res.json(updatedProfile);
+  })
   .post('/profiles', async (req, res, next) => {
-    const profile = req.body.profile;
-    const writeProfile = await ProfileSchema.create(profile);
+    const writeProfile = await ProfileSchema.create(req.body);
     return res.json(writeProfile);
   });
 
