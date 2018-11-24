@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const { ProfileSchema } = require('./schema');
 mongoose.connect('mongodb://localhost/test');
 
@@ -16,6 +17,7 @@ db.once('open', function() {
 const app = express();
 const port = 3001;
 
+app.use(cors());
 app.use(bodyParser());
 
 // ROUTES
