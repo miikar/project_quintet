@@ -25,7 +25,8 @@ const port = 3001;
 app.use('/uploads', express.static('uploads'));
 
 app.use(cors());
-app.use(bodyParser({limit: '5000 mb'})).use(bodyParser.urlencoded({limit: '5000mb'}));
+app.use(bodyParser.json({ limit: 10000 * 1024 }));
+app.use(bodyParser.urlencoded({ extended: false }));
 
 // ROUTES
 app
