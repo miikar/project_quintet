@@ -38,66 +38,38 @@ class Login extends Component {
   }
   render() {
     return (
-      <div>
-        <h2>Select your profile</h2>
+      <div className="login-form">
+        <h2>Who are you?</h2>
         <div>
-          <button
-            className={
-              this.state.profileType === 'startup'
-                ? 'btn btn-primary profile-button'
-                : 'btn profile-button'
-            }
-            onClick={() => this.setState({ profileType: 'startup' })}
-          >
-            Startup
-          </button>
-          <button
-            className={
-              this.state.profileType === 'investor'
-                ? 'btn btn-primary profile-button'
-                : 'btn profile-button'
-            }
-            onClick={() => this.setState({ profileType: 'investor' })}
-          >
-            Investor
-          </button>
-          <button
-            className={
-              this.state.profileType === 'company'
-                ? 'btn btn-primary profile-button'
-                : 'btn profile-button'
-            }
-            onClick={() => this.setState({ profileType: 'company' })}
-          >
-            Company
-          </button>
+          <button className={this.state.profileType === 'startup' ? "btn btn-primary login-button": "btn login-button"} onClick={() => this.setState({profileType: 'startup'})}>Startup</button>
+          <button className={this.state.profileType === 'investor' ? "btn btn-primary login-button": "btn login-button"} onClick={() => this.setState({profileType: 'investor'})}>Investor</button>
+          <button className={this.state.profileType === 'company' ? "btn btn-primary login-button": "btn login-button"} onClick={() => this.setState({profileType: 'company'})}>Company</button>
         </div>
-        <div>
-          <label>Name:</label>
-          <input
-            type="text"
-            value={this.state.profileName}
-            onChange={this.handleChangeName}
-          />
-        </div>
-        <label>Name:</label>
-        <input
-          type="textarea"
-          value={this.state.profileDescription}
-          onChange={this.handleChangeDescription}
-        />
-        <div>
-          {this.state.profileType === 'startup' && (
-            <Dropzone
-              onDrop={this.onDrop}
-              accept="video/mp4,video/x-m4v,video/*"
+        <form>
+          <div className="form-group">
+            <label for="profileName">Name:</label>
+            <input
+              className="form-control"
+              id="profileName"
+              type="text"
+              value={this.state.profileName}
+              onChange={this.handleChangeName}
             />
-          )}
-          {this.state.profileType !== 'startup' && (
-            <button className="btn btn-primary" onClick={this.handeSubmit}>
-              Create!
-            </button>
-          )}
+          </div>
+          <div className="form-group">
+            <label for="profileDescription">Problem Description:</label>
+            <textarea
+              rows="5"
+              className="form-control"
+              id="profileDescription"
+              value={this.state.profileDescription}
+              onChange={this.handleChangeDescription}
+            />
+          </div>
+        </form>
+        <div className="row submitzone">
+          { this.state.profileType === 'startup' && <Dropzone onDrop={this.onDrop} accept="video/mp4,video/x-m4v,video/*" />}
+          { this.state.profileType !== 'startup' && <div><button className="btn btn-primary" onClick={this.handeSubmit}>Create!</button></div>}
         </div>
       </div>
     );
