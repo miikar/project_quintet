@@ -88,8 +88,10 @@ app
 // UPLOAD ROUTES
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
+    console.log('dest');
     const profileId = ObjectId();
     file.profileId = profileId;
+    console.log('next mkdir', 'uploads/' + profileId + '/');
     mkdirp('uploads/' + profileId + '/', err => {
       if (err) console.log('mkdirp err', err);
       return cb(null, 'uploads/' + profileId + '/');
@@ -128,7 +130,9 @@ app.post('/upload', upload.single('video'), async (req, res, next) => {
       },
       ...rProfile
     };
+    console.log('write to db');
     const writeProfile = await ProfileSchema.create(profile);
+    console.log('written to db');
     return res.json(writeProfile);
   } catch (ex) {
     console.log('video upload err', ex);
