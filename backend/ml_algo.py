@@ -25,30 +25,35 @@ def main():
     collection = db['profiles']
 
     #get our data as an array from read_in()
-    #profile_id = read_in()
+    profile_id = read_in()
+    #profile_id = '5bf91436177df4775bf16be7'
+    print(profile_id)
 
     profiles = collection.find({})
     desc_data = {}
 
     for profile in profiles:
-        desc_data[profile['name']] = profile['description']
+        desc_data[str(profile['_id'])] = profile['description']
 
+    #print(desc_data)
     y = desc_data.keys()
+    #print(y)
+    query_id = y.index(profile_id)
     # extract tf-idf features
     X = TfidfVectorizer().fit_transform(desc_data.values())
-    cosine_similarities = linear_kernel(X[0:1], X).flatten()
-    ids = cosine_similarities.argsort()[:-5:-1]
+    cosine_similarities = linear_kernel(X[query_id:query_id+1], X).flatten()
+    ids = cosine_similarities.argsort()[:-6:-1]
     
+    print(query_id)
+    print(ids)
     
     print(X.shape)
     print(cosine_similarities.shape)
     print(cosine_similarities)
 
-    print(desc_data[y[ids[0]]])
-    print(y[ids[0]])
-    print(desc_data[y[ids[1]]])
-    print(y[ids[1]])
+    print('recommendations:%s' % (ids))
 
+    #print(desc_data)
 
 if __name__ == "__main__":
     main()
