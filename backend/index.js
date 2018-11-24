@@ -51,6 +51,7 @@ app
     });
 
     py.stdout.on('end', async () => {
+      console.log(dataString.toString())
       const test = dataString
         .split('recommendations:')[1]
         .trim()
@@ -59,9 +60,10 @@ app
       console.log('Recommended ids', parsed);
 
       const recommendedProfiles = await Promise.all(
-        parsed.map(id => {
-          return ProfileSchema.findOne({ _id: id }).exec();
-        })
+        Object.keys(parsed)
+          .map(id => {
+            return ProfileSchema.findOne({ _id: id }).exec();
+          })
       );
       return res.send(recommendedProfiles);
     });
