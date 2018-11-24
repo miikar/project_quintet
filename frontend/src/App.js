@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Login from './Login/Login';
 import ListView from './List/ListView';
-import openSocket from 'socket.io-client';
 import './bootstrap/bootstrap.css';
 import './App.css';
 import Nav from './Nav';
@@ -14,7 +13,7 @@ class App extends Component {
     currentProfile: 0,
     highestIndex: 0,
     newMessages: 0,
-    newProfiles: 10,
+    newProfiles: 0,
   }
 
   toggleProfile = (index, id) => {
@@ -28,7 +27,8 @@ class App extends Component {
   };
   setProfileId = (id, history) => {
     this.setState({
-      profileId: id
+      profileId: id,
+      newProfiles: 10,
     })
     history.push('/')
   }
