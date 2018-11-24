@@ -171,4 +171,18 @@ app.post('/test', (req, res, next) => {
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+const server = app.listen(port, () =>
+  console.log(`Example app listening on port ${port}!`)
+);
+
+const io = require('socket.io').listen(server);
+
+io.on('connection', socket => {
+  console.log('a user is connected');
+  socket.on('message', data => {
+    console.log('msg data', data);
+    io.emit('message', data);
+  });
+});
+
+io.origins('*:*');
