@@ -30,8 +30,9 @@ class ListView extends Component {
   };
 
   componentDidMount = async () => {
-    if (!this.props.profileId) this.props.history.push('/login');
+    if (!this.props.profileId) return this.props.history.push('/login');
     const profileToCompare = this.props.profileId;
+    
     const profiles = await getSimilarProfiles(profileToCompare);
     this.setState({
       profiles
