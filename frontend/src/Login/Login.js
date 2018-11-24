@@ -59,8 +59,8 @@ class Login extends Component {
             />
           </div>
           <div className="form-group">
-            { this.state.profileType === 'startup' &&<label for="profileDescription">Tell us what you do:</label>}
-            { this.state.profileType !== 'startup' &&<label for="profileDescription">Problem Description:</label>}
+            { this.state.profileType === 'startup' &&<label for="profileDescription">What problem are you solving?</label>}
+            { this.state.profileType !== 'startup' &&<label for="profileDescription">What are you looking for in a startup:?</label>}
             <textarea
               rows="5"
               className="form-control"

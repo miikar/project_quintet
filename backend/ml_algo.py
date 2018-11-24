@@ -38,6 +38,7 @@ def main():
     profiles = collection.find({})
     desc_data = {}
 
+    # build corpus
     for profile in profiles:
         data_string = ''
         if profile.get('description'):
@@ -49,30 +50,26 @@ def main():
         desc_data[str(profile['_id'])] = data_string
         
 
-    #print(desc_data)
     y = desc_data.keys()
-    #print(y)
     query_id = y.index(profile_id)
 
+    # text preprocessing
     porter = PorterStemmer()
-    #stop_words = set(stopwords.words('english'))
-
     modified_arr = [[porter.stem(i.lower()) for i in tokenize(d)] for d in desc_data.values()]
     modified_doc = [' '.join(i) for i in modified_arr]
 
     # extract tf-idf features
     vectorizer = TfidfVectorizer(stop_words='english')
     X = vectorizer.fit_transform(modified_doc)
+    # compute cosine similarities and sort by the similarity score
     cosine_similarities = linear_kernel(X[query_id:query_id+1], X).flatten()
     match_scores = cosine_similarities.argsort()[:-10:-1][1:]
     
-    print(query_id)
+    #print(query_id)
     print(match_scores)
-    
-    print(X.shape)
-    print(cosine_similarities.shape)
     print(cosine_similarities)
 
+    # return best matches to the server backend
     res = OrderedDict()
     # _id -> match_score 
     for i in match_scores:
