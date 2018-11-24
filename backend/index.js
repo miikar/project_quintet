@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const { ProfileSchema } = require('./schema');
 mongoose.connect('mongodb://localhost/test');
 
@@ -16,6 +17,7 @@ db.once('open', function() {
 const app = express();
 const port = 3001;
 
+app.use(cors());
 app.use(bodyParser());
 
 // ROUTES
@@ -24,9 +26,39 @@ app
     const profiles = await ProfileSchema.find({}).exec();
     return res.json(profiles);
   })
+  .get('/profiles/:id', async (req, res, next) => {
+    const profile = await ProfileSchema.findOne({ _id: req.params.id }).exec();
+    return res.json(profile);
+  })
+  .get('/profiles/:id/similar', async (req, res, next) => {
+    const profile = await ProfileSchema.findOne({ _id: req.params.id }).exec();
+    const spawn = require('child_process').spawn;
+    const py = spawn('python', ['test.py']);
+    const data = profile._id;
+    let dataString = '';
+
+    py.stdout.on('data', function(data) {
+      dataString += data.toString();
+    });
+    py.stdout.on('end', function() {
+      console.log('data', dataString);
+      return res.send(dataString);
+    });
+    py.stdin.write(JSON.stringify(data));
+
+    py.stdin.end();
+  })
+
+  .patch('/profiles/:id', async (req, res, next) => {
+    const updatedProfile = await ProfileSchema.findOneAndUpdate(
+      { _id: req.params.id },
+      req.body,
+      { new: true }
+    ).exec();
+    return res.json(updatedProfile);
+  })
   .post('/profiles', async (req, res, next) => {
-    const profile = req.body.profile;
-    const writeProfile = await ProfileSchema.create(profile);
+    const writeProfile = await ProfileSchema.create(req.body);
     return res.json(writeProfile);
   });
 

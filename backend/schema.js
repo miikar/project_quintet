@@ -3,6 +3,11 @@ const mongoose = require('mongoose');
 const profileSchema = new mongoose.Schema({
   name: String,
   description: String,
+  type: {
+    type: String,
+    default: 'startup'
+  },
+  industries: [String],
   launchpadData: mongoose.Schema.Types.Mixed
 });
 
