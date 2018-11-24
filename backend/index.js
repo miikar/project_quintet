@@ -25,7 +25,8 @@ const port = 3001;
 app.use('/uploads', express.static('uploads'));
 
 app.use(cors());
-app.use(bodyParser({limit: '5000 mb'})).use(bodyParser.urlencoded({limit: '5000mb'}));
+// app.use(bodyParser.json({ limit: 10000 * 1024 }));
+// app.use(bodyParser.urlencoded({ extended: false }));
 
 // ROUTES
 app
@@ -72,7 +73,7 @@ app
     py.stdin.end();
   })
 
-  .patch('/profiles/:id', async (req, res, next) => {
+  .patch('/profiles/:id', bodyParser.json(), async (req, res, next) => {
     const updatedProfile = await ProfileSchema.findOneAndUpdate(
       { _id: req.params.id },
       req.body,
@@ -80,7 +81,7 @@ app
     ).exec();
     return res.json(updatedProfile);
   })
-  .post('/profiles', async (req, res, next) => {
+  .post('/profiles', bodyParser.json(), async (req, res, next) => {
     const writeProfile = await ProfileSchema.create(req.body);
     return res.json(writeProfile);
   });
