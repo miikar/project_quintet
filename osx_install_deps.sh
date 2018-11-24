@@ -1,4 +1,4 @@
-pip install -U numpy scipy pandas scikit-learn pymongo
+pip install -U numpy scipy pandas scikit-learn pymongo nltk
 
 # install docker
 #brew install docker

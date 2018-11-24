@@ -5,11 +5,15 @@ import sklearn
 import pymongo
 import sys
 import json
+import string
+
+#from nltk.corpus import stopwords
+from nltk.tokenize import wordpunct_tokenize as tokenize
+from nltk.stem.porter import PorterStemmer
 from pymongo import MongoClient
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
-# from surprise import 
-
+# from surprise import
 
 #Read data from stdin
 def read_in():
@@ -40,10 +44,18 @@ def main():
     y = desc_data.keys()
     #print(y)
     query_id = y.index(profile_id)
+
+    porter = PorterStemmer()
+    #stop_words = set(stopwords.words('english'))
+
+    modified_arr = [[porter.stem(i.lower()) for i in tokenize(d)] for d in desc_data.values()]
+    modified_doc = [' '.join(i) for i in modified_arr]
+
     # extract tf-idf features
-    X = TfidfVectorizer().fit_transform(desc_data.values())
+    vectorizer = TfidfVectorizer(stop_words='english')
+    X = vectorizer.fit_transform(modified_doc)
     cosine_similarities = linear_kernel(X[query_id:query_id+1], X).flatten()
-    ids = cosine_similarities.argsort()[:-6:-1]
+    ids = cosine_similarities.argsort()[:-10:-1]
     
     print(query_id)
     print(ids)
@@ -52,7 +64,12 @@ def main():
     print(cosine_similarities.shape)
     print(cosine_similarities)
 
-    print('recommendations:%s' % ([y[i] for i in ids]))
+    res = {}
+    # _id -> match_score 
+    for i in ids:
+        res[y[i]] = cosine_similarities[i]
+
+    print('recommendations:%s' % (res))
 
     #print(desc_data)
 

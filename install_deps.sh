@@ -1,1 +1,1 @@
-pip install -U numpy scipy pandas scikit-learn pymongo
+pip install -U numpy scipy pandas scikit-learn pymongo nltk
