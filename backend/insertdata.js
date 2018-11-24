@@ -13,10 +13,13 @@ const main = async () => {
     console.log('api err', error);
   });
   //console.log(data.body.items);
+  await ProfileSchema.collection.drop();
   const insertData = data.body.items.map(s => {
     return {
       name: s.name,
       description: s.description,
+      type: s.type,
+      industries: s.industries,
       launchpadData: s
     };
   });
