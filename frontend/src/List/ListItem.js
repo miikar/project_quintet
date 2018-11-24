@@ -21,9 +21,12 @@ class ListItem extends Component {
 
   render(){
     const { profile } = this.props;
-    const { launchpadData = {}, description } = profile;
+    const { launchpadData = {}, description, industries, technologies } = profile;
     const { type, city, country, shortDescription, logo = {} } = launchpadData;
-    const {toggleChat} = this.state;
+    const { toggleChat } = this.state;
+    const shortened = description.length > 250 ? description.substring(0, 250) + '...' : description;
+    const industryTags = industries.join(', ')
+    const techTags = technologies.join(', ')
 
     return (
       <div className="profile-container">
@@ -50,7 +53,9 @@ class ListItem extends Component {
             <p>
               {city}, {country}
             </p>
-            <p>{shortDescription}</p>
+            <p>{shortened}</p>
+            <p className="industrytaggs">{industryTags}</p>
+            <p className="industrytaggs">{techTags}</p>
           </div>
           <div className="profile-button-container">
             <button className="profile-button" onClick={this.displayChat}>
