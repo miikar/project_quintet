@@ -69,3 +69,7 @@ header * {
   padding: 12px;
 }
 
+.profile-button {
+  box-shadow:none!important;
+  margin: 5px;
+}
