@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Player } from 'video-react';
+import '../../node_modules/video-react/dist/video-react.css';
+import { getVideoUrl } from '../Api';
 
 /* 
     "type": "startup",
@@ -32,24 +35,35 @@ import React, { Component } from 'react';
 const defaultLogoUrl = 'logo-placeholder.jpg';
 
 const ListItem = ({ profile }) => {
-  const { launchpadData={}, description } = profile; 
-  const {type, city, country, shortDescription, logo={}} = launchpadData;
+  const { launchpadData = {}, description, video } = profile;
+  const { type, city, country, shortDescription, logo = {} } = launchpadData;
   return (
     <div className="profile-container">
       <div className="profile-content">
-        <img 
-          className="profile-logo"
-          src={logo.imageServiceUrl || defaultLogoUrl} 
-          alt={profile.name}
-        />
+        {video ? (
+          <Player
+            playsInline
+            poster={logo.imageServiceUrl || defaultLogoUrl}
+            src={getVideoUrl(video)}
+          />
+        ) : (
+          <img
+            className="profile-logo"
+            src={logo.imageServiceUrl || defaultLogoUrl}
+            alt={profile.name}
+          />
+        )}
+
         <div className="profile-text">
           <h3>{profile.name}</h3>
-          <p>{city}, {country}</p>
+          <p>
+            {city}, {country}
+          </p>
           <p>{shortDescription}</p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default ListItem;

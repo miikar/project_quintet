@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import { getProfiles } from '../Api';
 import ListItem from './ListItem';
 
-const shuffle = (array) => {
-  var currentIndex = array.length, temporaryValue, randomIndex;
+const shuffle = array => {
+  var currentIndex = array.length,
+    temporaryValue,
+    randomIndex;
 
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
-
     // Pick a remaining element...
+    //randomIndex = 1;
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
 
@@ -19,22 +21,22 @@ const shuffle = (array) => {
   }
 
   return array;
-}
+};
 
 class ListView extends Component {
   state = {
     profiles: []
-  }
+  };
 
   componentDidMount = async () => {
     const profiles = await getProfiles();
-    console.log(profiles)
+    console.log(profiles);
     this.setState({
-      profiles: shuffle(profiles),
+      profiles: shuffle(profiles)
     });
-  }
+  };
   render() {
-    const { profiles=[] } = this.state;
+    const { profiles = [] } = this.state;
 
     return (
       <div className="profile-list">
