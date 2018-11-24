@@ -46,7 +46,7 @@ const main = async () => {
       }),
       technologies: s.technologies
         ? s.technologies.map(t => {
-            return technologies.find(tec => tec.key === t).name;
+            return technologies.find(tec => tec.key == t).name;
           })
         : [],
       launchpadData: s
