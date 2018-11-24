@@ -46,10 +46,9 @@ class Nav extends Component {
                   <strong>PitchIt!</strong>
                   <img className="main-logo" src={logo} />
                 </Link>
-              <div className="newMessages">
+              <Link to="/chat" className="newMessages">
                 {newMessages}
-              </div>
-
+              </Link>
             </div>
           </div>
         </header>

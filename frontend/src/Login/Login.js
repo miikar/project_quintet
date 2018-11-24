@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Dropzone from 'react-dropzone';
-import { uploadVideo } from '../Api';
+import { uploadVideo, createProfile } from '../Api';
 import { format } from 'util';
 
 class Login extends Component {
@@ -10,6 +10,7 @@ class Login extends Component {
     this.state = { profileName: '', profileDescription: '' };
     this.handleChangeName = this.handleChangeName.bind(this);
     this.handleChangeDescription = this.handleChangeDescription.bind(this);
+    this.handeSubmit = this.handeSubmit.bind(this);
   }
   handleChangeName(event) {
     this.setState({ profileName: event.target.value });
@@ -17,13 +18,24 @@ class Login extends Component {
   handleChangeDescription(event) {
     this.setState({ profileDescription: event.target.value });
   }
-  onDrop = (accepted, rejected) => {
+  onDrop = async (accepted, rejected) => {
     const profile = {
       name: this.state.profileName,
       description: this.state.profileDescription
     };
-    uploadVideo(profile, accepted);
+    const createdProfile = await uploadVideo(profile, accepted);
+    const profileId = createdProfile._id;
+    this.props.setProfileId(profileId);
   };
+  async handeSubmit() {
+    const profile = {
+      name: this.state.profileName,
+      description: this.state.profileDescription
+    };
+    const createdProfile = await createProfile(profile);
+    const profileId = createdProfile._id;
+    this.props.setProfileId(profileId);
+  }
   render() {
     return (
       <div className="login-form">
