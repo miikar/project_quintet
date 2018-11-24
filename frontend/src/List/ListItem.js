@@ -37,15 +37,18 @@ const ListItem = ({ profile }) => {
   return (
     <div className="profile-container">
       <div className="profile-content">
-        <img 
-          className="profile-logo"
-          src={logo.imageServiceUrl || defaultLogoUrl} 
-          alt={profile.name}
-        />
+        <div className="profile-logo-container">
+          <img 
+            className="profile-logo"
+            src={logo.imageServiceUrl || defaultLogoUrl} 
+            alt={profile.name}
+          />
+        </div>
+        {/* <div className="profile-line" /> */}
         <div className="profile-text">
           <h3>{profile.name}</h3>
           <p>{city}, {country}</p>
-          <p>{shortDescription}</p>
+          <p>{description}</p>
         </div>
       </div>
     </div>

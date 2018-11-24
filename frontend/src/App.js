@@ -14,7 +14,7 @@ class App extends Component {
         <div className="App">
           <Nav />
           <div className="content">
-            <Route exact path="/list" component={ListView} />
+            <Route exact path="/" component={ListView} />
             <Route exact path="/login" component={Login} />
             <Link to="/list">
               <button>About</button>
