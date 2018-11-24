@@ -7,7 +7,7 @@ class Login extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { profileName: '', profileDescription: '' };
+    this.state = { profileName: '', profileDescription: '', profileType: 'startup' };
     this.handleChangeName = this.handleChangeName.bind(this);
     this.handleChangeDescription = this.handleChangeDescription.bind(this);
     this.handeSubmit = this.handeSubmit.bind(this);
@@ -47,7 +47,9 @@ class Login extends Component {
         </div>
         <form>
           <div className="form-group">
-            <label for="profileName">Name:</label>
+            { this.state.profileType === 'startup' && <label for="profileName">Startup Name:</label>}
+            { this.state.profileType === 'investor' && <label for="profileName">Name:</label>}
+            { this.state.profileType === 'company' && <label for="profileName">Company Name:</label>}
             <input
               className="form-control"
               id="profileName"
@@ -57,7 +59,8 @@ class Login extends Component {
             />
           </div>
           <div className="form-group">
-            <label for="profileDescription">Problem Description:</label>
+            { this.state.profileType === 'startup' &&<label for="profileDescription">Tell us what you do:</label>}
+            { this.state.profileType !== 'startup' &&<label for="profileDescription">Problem Description:</label>}
             <textarea
               rows="5"
               className="form-control"
@@ -68,7 +71,15 @@ class Login extends Component {
           </div>
         </form>
         <div className="row submitzone">
-          { this.state.profileType === 'startup' && <Dropzone onDrop={this.onDrop} accept="video/mp4,video/x-m4v,video/*" />}
+          { this.state.profileType === 'startup'
+           &&
+            <div>
+              <div className="submitzone-text">Record your elevator pitch!</div>
+              <Dropzone onDrop={this.onDrop} accept="video/mp4,video/x-m4v,video/*">
+                <span>+</span>
+              </Dropzone>
+            </div>
+          }
           { this.state.profileType !== 'startup' && <div><button className="btn btn-primary" onClick={this.handeSubmit}>Create!</button></div>}
         </div>
       </div>

@@ -107,6 +107,7 @@ header * {
   /* text-align: left; */
   background-color: #ff5162;
   padding: 12px;
+  padding-top: 18px;
   text-overflow: ellipsis;
   color: white;
   height: 100%;
@@ -173,8 +174,26 @@ header * {
 
 .submitzone div {
   margin: 0 auto!important;
+  text-align: center;
 }
 
 .profile-chat {
   color: white;
+}
+
+.industrytaggs {
+  font-weight: bold;
+}
+
+.submitzone-text {
+  padding-bottom:14px;
+}
+
+.submitzone span {
+  font-size: 200px;
+  margin-top: -56px;
+  vertical-align: top;
+  position: absolute;
+  top: -8%;
+  right: 18%
 }
