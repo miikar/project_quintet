@@ -30,6 +30,25 @@ app
     const profile = await ProfileSchema.findOne({ _id: req.params.id }).exec();
     return res.json(profile);
   })
+  .get('/profiles/:id/similar', async (req, res, next) => {
+    const profile = await ProfileSchema.findOne({ _id: req.params.id }).exec();
+    const spawn = require('child_process').spawn;
+    const py = spawn('python', ['test.py']);
+    const data = profile._id;
+    let dataString = '';
+
+    py.stdout.on('data', function(data) {
+      dataString += data.toString();
+    });
+    py.stdout.on('end', function() {
+      console.log('data', dataString);
+      return res.send(dataString);
+    });
+    py.stdin.write(JSON.stringify(data));
+
+    py.stdin.end();
+  })
+
   .patch('/profiles/:id', async (req, res, next) => {
     const updatedProfile = await ProfileSchema.findOneAndUpdate(
       { _id: req.params.id },
