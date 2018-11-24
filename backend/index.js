@@ -10,6 +10,7 @@ const { ProfileSchema } = require('./schema');
 mongoose.connect('mongodb://localhost/test');
 
 const spawn = require('child_process').spawn;
+const ObjectId = mongoose.Types.ObjectId;
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -51,7 +52,7 @@ app
     });
 
     py.stdout.on('end', async () => {
-      console.log(dataString.toString())
+      console.log(dataString.toString());
       const test = dataString
         .split('recommendations:')[1]
         .trim()
@@ -60,10 +61,9 @@ app
       console.log('Recommended ids', parsed);
 
       const recommendedProfiles = await Promise.all(
-        Object.keys(parsed)
-          .map(id => {
-            return ProfileSchema.findOne({ _id: id }).exec();
-          })
+        Object.keys(parsed).map(id => {
+          return ProfileSchema.findOne({ _id: id }).exec();
+        })
       );
       return res.send(recommendedProfiles);
     });
@@ -88,14 +88,14 @@ app
 // UPLOAD ROUTES
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    const profileId = req.params.id;
+    const profileId = ObjectId();
+    file.profileId = profileId;
     mkdirp('uploads/' + profileId + '/', err => {
       if (err) console.log('mkdirp err', err);
       return cb(null, 'uploads/' + profileId + '/');
     });
   },
   filename: function(req, file, cb) {
-    console.log('file', file);
     const filename = path.normalize(file.originalname);
     cb(null, filename);
   }
@@ -106,7 +106,6 @@ app.post(
   '/profiles/:id/upload',
   upload.single('video'),
   async (req, res, next) => {
-    console.log('req file ', req.file);
     const videoPath = '/' + req.file.path;
     const updatedProfile = await ProfileSchema.findOneAndUpdate(
       { _id: req.params.id },
@@ -116,6 +115,20 @@ app.post(
     res.json(updatedProfile);
   }
 );
+
+app.post('/upload', upload.single('video'), async (req, res, next) => {
+  const videoPath = '/' + req.file.path;
+  const rProfile = JSON.parse(req.body.profile);
+  const profile = {
+    _id: req.file.profileId,
+    video: {
+      path: req.file.path
+    },
+    ...rProfile
+  };
+  const writeProfile = await ProfileSchema.create(profile);
+  return res.json(writeProfile);
+});
 
 app.get('/test', (req, res, next) => {
   // From https://www.sohamkamani.com/blog/2015/08/21/python-nodejs-comm/

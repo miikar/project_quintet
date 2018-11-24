@@ -7,6 +7,8 @@ import sys
 import json
 import string
 
+from collections import OrderedDict
+
 #from nltk.corpus import stopwords
 from nltk.tokenize import wordpunct_tokenize as tokenize
 from nltk.stem.porter import PorterStemmer
@@ -37,8 +39,15 @@ def main():
     desc_data = {}
 
     for profile in profiles:
+        data_string = ''
         if profile.get('description'):
-            desc_data[str(profile['_id'])] = profile.get('description')
+            data_string += profile.get('description') + ' '
+        if profile.get('industries'):
+            data_string += ' '.join(profile.get('industries'))
+        if profile.get('technologies'):
+            data_string += ' '.join(profile.get('technologies'))
+        desc_data[str(profile['_id'])] = data_string
+        
 
     #print(desc_data)
     y = desc_data.keys()
@@ -55,23 +64,21 @@ def main():
     vectorizer = TfidfVectorizer(stop_words='english')
     X = vectorizer.fit_transform(modified_doc)
     cosine_similarities = linear_kernel(X[query_id:query_id+1], X).flatten()
-    ids = cosine_similarities.argsort()[:-10:-1]
+    match_scores = cosine_similarities.argsort()[:-10:-1]
     
     print(query_id)
-    print(ids)
+    print(match_scores)
     
     print(X.shape)
     print(cosine_similarities.shape)
     print(cosine_similarities)
 
-    res = {}
+    res = OrderedDict()
     # _id -> match_score 
-    for i in ids:
+    for i in match_scores:
         res[y[i]] = cosine_similarities[i]
 
-    print('recommendations:%s' % (res))
-
-    #print(desc_data)
+    print('recommendations:%s' % (json.dumps(res)))
 
 if __name__ == "__main__":
     main()

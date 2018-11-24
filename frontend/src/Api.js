@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const url = 'http://cloud.kurkinen.me:3001';
-//const url = 'http://localhost:3001';
+// const url = 'http://localhost:3001';
 
 export const getProfiles = async () => {
   const profiles = await axios.get(url + '/profiles');
@@ -11,9 +11,10 @@ export const getProfiles = async () => {
 
 export const getVideoUrl = video => url + video.path;
 
-export const uploadVideo = (profileId, file) => {
+export const uploadVideo = async (profile, file) => {
   const form = new FormData();
   form.append('video', file[0]);
+  form.append('profile', JSON.stringify(profile));
   const config = {
     onUploadProgress: progress => {
       // Might not even work?
@@ -21,5 +22,7 @@ export const uploadVideo = (profileId, file) => {
       console.log('upload%', percent);
     }
   };
-  return axios.post(`${url}/profiles/${profileId}/upload`, form);
+  const response = await axios.post(`${url}/upload`, form);
+  console.log('Profile created', response.data);
+  return response.data;
 };
