@@ -33,7 +33,8 @@ def main():
     desc_data = {}
 
     for profile in profiles:
-        desc_data[str(profile['_id'])] = profile['description']
+        if profile.get('description'):
+            desc_data[str(profile['_id'])] = profile.get('description')
 
     #print(desc_data)
     y = desc_data.keys()

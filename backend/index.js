@@ -37,13 +37,17 @@ app
   .get('/profiles/:id/similar', async (req, res, next) => {
     const profile = await ProfileSchema.findOne({ _id: req.params.id }).exec();
     const spawn = require('child_process').spawn;
-    const py = spawn('python', ['test.py']);
+    const py = spawn('python', ['ml_algo.py']);
     const data = profile._id;
     let dataString = '';
 
     py.stdout.on('data', function(data) {
       dataString += data.toString();
     });
+    py.stderr.on('data', err => {
+      console.log('ERROR FROM PYTHON', err.toString());
+    });
+
     py.stdout.on('end', function() {
       console.log('data', dataString);
       return res.send(dataString);
