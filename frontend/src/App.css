@@ -40,6 +40,10 @@ header * {
   color: white;
 }
 
+.message-container {
+  height: 83vh;
+  overflow-y: scroll;
+}
 
 .newMessages {
   background: #879bb1;
