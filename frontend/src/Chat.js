@@ -30,6 +30,12 @@ class Chat extends Component {
     this.setState({
       messages: moreMessages,
     });
+    try {
+      const container = document.getElementById("message-container");
+      container.scrollTop = container.scrollHeight;
+    } catch (e) {
+
+    }
   }
 
   handleMessageInput = (event) => {
@@ -53,7 +59,7 @@ class Chat extends Component {
     const {message, messages} = this.state;
     return (
       <div className="profile-chat">
-        <div className="message-container">
+        <div className="message-container" id="message-container">
           {messages.map((m, index) => (
             <div className={"message message-type-"+m.id} key={m.content + index}>
               {m.id === 1 && <span className="message-name">Them</span>}
