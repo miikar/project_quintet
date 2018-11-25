@@ -12,7 +12,7 @@ import {url} from './Api';
 
 class App extends Component {
   state = {
-    profileId: '5bf981d04989b23da78f058b',
+    profileId: '',
     currentProfile: 0,
     highestIndex: 0,
     newMessages: 0,
