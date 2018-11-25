@@ -51,6 +51,7 @@ class Login extends Component {
             { this.state.profileType === 'investor' && <label for="profileName">Name:</label>}
             { this.state.profileType === 'company' && <label for="profileName">Company Name:</label>}
             <input
+              autoFocus
               className="form-control"
               id="profileName"
               type="text"
@@ -60,7 +61,7 @@ class Login extends Component {
           </div>
           <div className="form-group">
             { this.state.profileType === 'startup' &&<label for="profileDescription">What problem are you solving?</label>}
-            { this.state.profileType !== 'startup' &&<label for="profileDescription">What are you looking for in a startup:?</label>}
+            { this.state.profileType !== 'startup' &&<label for="profileDescription">What are you looking for in a startup?</label>}
             <textarea
               rows="5"
               className="form-control"
@@ -80,7 +81,9 @@ class Login extends Component {
               </Dropzone>
             </div>
           }
-          { this.state.profileType !== 'startup' && <div><button className="btn btn-primary" onClick={this.handeSubmit}>Create!</button></div>}
+          { this.state.profileType !== 'startup' && <div>
+            <button className="btn btn-primary btn-lg" onClick={this.handeSubmit}>Start matchmaking!</button>
+            </div>}
         </div>
       </div>
     );

@@ -42,21 +42,33 @@ header * {
 
 
 .newMessages {
+  background: #879bb1;
   color: white;
-  border: 1px solid white;
   border-radius: 50%;
   width: 35px;
   height: 35px;
-  font-size: 22px;
+  font-size: 23px;
+  vertical-align: bottom;
+}
+
+.newMessages-true {
+  background: #f56767;
+}
+
+.navbar a:hover {
+  /* color: initial; */
+  /* background-color: rgb(218, 218, 218); */
+  text-decoration: none;
 }
 
 .newProfiles {
+  background: #007bff;
   color: white;
-  border: 1px solid white;
   border-radius: 50%;
   width: 35px;
   height: 35px;
-  font-size: 22px;
+  font-size: 23px;
+  vertical-align: bottom;
 }
 
 .content {
@@ -209,6 +221,10 @@ header * {
   width: calc(100% - 24px);
 }
 
+.message-name {
+  color: #989898;
+}
+
 .industrytaggs {
   font-weight: bold;
 }
@@ -224,4 +240,78 @@ header * {
   position: absolute;
   top: -8%;
   right: 18%
+}
+
+.btn-lg {
+  min-width: 200px;
+}
+
+.hidden-true {
+  visibility: hidden;
+}
+
+.profile-chat .mb-3 {
+  margin-bottom: 0;
+}
+
+.loading-spinner {
+  padding-top: 30%;
+  font-size: 24px;
+  color: white;
+}
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 27px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 6px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 6px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 26px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 45px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(19px, 0);
+  }
 }

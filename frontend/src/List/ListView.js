@@ -26,18 +26,29 @@ const shuffle = array => {
 
 class ListView extends Component {
   state = {
-    profiles: []
+    profiles: [],
+    showResults: false,
   };
 
   componentDidMount = async () => {
     if (!this.props.profileId) return this.props.history.push('/login');
     const profileToCompare = this.props.profileId;
     
+    window.setTimeout(() => {
+      console.log('timeout')
+      this.setState({showResults: true})
+    }, 2000)
+
     const profiles = await getSimilarProfiles(profileToCompare);
+
     this.setState({
       profiles
     });
   };
+
+  showResults = () => {
+    this.setState({showResults: true})
+  }
 
   handleVisibility = (profile, index) => (isVisible) => {
     const { toggleProfile } = this.props;
@@ -47,8 +58,15 @@ class ListView extends Component {
   }
 
   render() {
-    const { profiles = [] } = this.state;
+    const { profiles = [], showResults } = this.state;
     const { toggleProfile } = this.props;
+
+    if (!showResults) return (
+      <div className="loading-spinner">
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+        <div>Searching for the best match...</div>
+      </div>
+    )
 
     return (
       <div className="profile-list">

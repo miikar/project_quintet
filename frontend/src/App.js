@@ -6,15 +6,52 @@ import './bootstrap/bootstrap.css';
 import './App.css';
 import Nav from './Nav';
 import Chat from './Chat';
+import io from 'socket.io-client';
+import {url} from './Api';
+
 
 class App extends Component {
   state = {
-    profileId: '',
+    profileId: '5bf981d04989b23da78f058b',
     currentProfile: 0,
     highestIndex: 0,
     newMessages: 0,
+    messages: JSON.parse(localStorage.getItem('messages')) || [{id: 3, content:'Say hello!'}],
+    inChat: false,
     newProfiles: 0,
   }
+
+  socket = io(url);
+
+  componentDidMount() {
+    this.socket.on('message', this.handleNewMessage);
+  }
+
+  handleNewMessage = (message) => {
+    const { messages, newMessages, inChat } = this.state;
+    if (inChat) return;
+    const moreMessages = [...messages, {id:1, content: message}];
+    localStorage.setItem('messages', JSON.stringify(moreMessages));
+    this.setState({
+      messages: moreMessages,
+      newMessages: newMessages + 1,
+    })
+  }
+
+  toggleMessages = () => {
+    if (this.state.inChat) {
+      this.setState({
+        messages: JSON.parse(localStorage.getItem('messages')) || [{id: 3, content:'Say hello!'}],
+        inChat: !this.state.inChat,
+      });
+    } else {
+      this.setState({
+        newMessages: 0,
+        inChat: !this.state.inChat,
+      });
+    }
+  }
+  
 
   toggleProfile = (index, id) => {
     const {highestIndex, newProfiles} = this.state;
@@ -34,12 +71,12 @@ class App extends Component {
   }
 
   render() {
-    const {currentProfile, newMessages, newProfiles, profileId} = this.state;
+    const {currentProfile, newMessages, newProfiles, profileId, messages} = this.state;
 
     return (
       <Router>
         <div className="App">
-          <Nav newProfiles={newProfiles} newMessages={newMessages} />
+          <Nav profileId={profileId} newProfiles={newProfiles} newMessages={newMessages} />
           <div className="content">
             <Route 
               exact path="/" 
@@ -56,7 +93,7 @@ class App extends Component {
             <Route 
               exact path="/chat" 
               render={() => 
-                <Chat profileId={profileId} />
+                <Chat profileId={profileId} messages={messages} toggleMessages={this.toggleMessages} />
             } />
           </div>
         </div>

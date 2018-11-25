@@ -15,7 +15,7 @@ class Nav extends Component {
     const {showSubNav} = this.state;
     const showClassName = showSubNav ? 'show' : '';
 
-    const {newMessages, newProfiles} = this.props;
+    const {profileId, newMessages, newProfiles} = this.props;
 
     return (
       <header>
@@ -38,15 +38,16 @@ class Nav extends Component {
             </div>
           </div>
           <div className="navbar navbar-dark box-shadow">
-            <div className="container d-flex justify-content-between">
-              <div className="newProfiles">
+            <div className="container d-flex">
+              <div className={`newProfiles hidden-${profileId && newProfiles > 0 ? 'false' : 'true'}`}>
                 {newProfiles}
               </div>
                 <Link to="/" className="navbar-brand d-flex align-items-center">
                   <strong>PitchIt!</strong>
                   <img className="main-logo" src={logo} />
                 </Link>
-              <Link to="/chat" className="newMessages">
+              <Link to="/chat" 
+                className={`newMessages hidden-${profileId ? 'false' : 'true'} newMessages-${newMessages > 0}`}>
                 {newMessages}
               </Link>
             </div>

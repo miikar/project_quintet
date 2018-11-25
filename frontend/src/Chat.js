@@ -6,20 +6,30 @@ import io from 'socket.io-client';
 class Chat extends Component {
   socket = io(url);
 
-  state = {
-    message: '',
-    messages : [{id: 0, content:'Say hello!'}],
+  constructor(props){
+    super(props);
+    this.state = {
+      message: '',
+      messages : props.messages,
+    }
   }
 
   componentDidMount() {
+    this.props.toggleMessages();
     this.socket.on('message', this.handleNewMessage);
+  }
+
+  componentWillUnmount(){
+    this.props.toggleMessages();
   }
 
   handleNewMessage = (message) => {
     const { messages } = this.state; 
+    const moreMessages = [...messages, {id:1, content: message}];
+    localStorage.setItem('messages', JSON.stringify(moreMessages));
     this.setState({
-      messages: [...messages, {id:1, content: message}]
-    })
+      messages: moreMessages,
+    });
   }
 
   handleMessageInput = (event) => {
@@ -30,9 +40,11 @@ class Chat extends Component {
     event.preventDefault();
     const {message, messages} = this.state;
     this.socket.emit('message', message);
+    const moreMessages = [...messages, {id:0, content: message}];
+    localStorage.setItem('messages', JSON.stringify(moreMessages));
     this.setState({
       message: '', 
-      messages: [...messages, {id:0, content: message}]
+      messages: moreMessages,
     });
   }
 
@@ -42,8 +54,8 @@ class Chat extends Component {
     return (
       <div className="profile-chat">
         <div className="message-container">
-          {messages.map((m) => (
-            <div className={"message message-type-"+m.id}>
+          {messages.map((m, index) => (
+            <div className={"message message-type-"+m.id} key={m.content + index}>
               {m.id === 1 && <span className="message-name">Them</span>}
               <span className="message-content">
                 {m.content}
