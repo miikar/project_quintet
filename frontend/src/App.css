@@ -194,8 +194,9 @@ header * {
   padding: 12px;
 }
 
-.message-content-container {
-
+.message-container {
+  height: 83vh;
+  overflow-y: scroll;
 }
 
 .message-content {
