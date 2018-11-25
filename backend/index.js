@@ -26,7 +26,7 @@ app.use('/uploads', express.static('uploads'));
 
 app.use(cors());
 // app.use(bodyParser.json({ limit: 10000 * 1024 }));
-// app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: false }));
 
 // ROUTES
 app
@@ -73,7 +73,7 @@ app
     py.stdin.end();
   })
 
-  .patch('/profiles/:id', bodyParser.json(), async (req, res, next) => {
+  .patch('/profiles/:id', bodyParser.json({limit: '500mb'}), async (req, res, next) => {
     const updatedProfile = await ProfileSchema.findOneAndUpdate(
       { _id: req.params.id },
       req.body,
@@ -81,7 +81,7 @@ app
     ).exec();
     return res.json(updatedProfile);
   })
-  .post('/profiles', bodyParser.json(), async (req, res, next) => {
+  .post('/profiles', bodyParser.json({limit: '500mb'}), async (req, res, next) => {
     const writeProfile = await ProfileSchema.create(req.body);
     return res.json(writeProfile);
   });
