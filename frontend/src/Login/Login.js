@@ -72,7 +72,7 @@ class Login extends Component {
           </div>
         </form>
         <div className="row submitzone">
-          { this.state.profileType === 'startup'
+          { false
            &&
             <div>
               <div className="submitzone-text">Record your elevator pitch!</div>
@@ -81,7 +81,7 @@ class Login extends Component {
               </Dropzone>
             </div>
           }
-          { this.state.profileType !== 'startup' && <div>
+          { true && <div>
             <button className="btn btn-primary btn-lg" onClick={this.handeSubmit}>Start matchmaking!</button>
             </div>}
         </div>
